@@ -1,7 +1,0 @@
-AuthName "kaisermann.me statistics"
-AuthType Basic
-AuthUserFile /home/kaisermann/.stats-htpasswd
-require valid-user
-<Files .stats-htpasswd>
-deny from all
-</Files>
