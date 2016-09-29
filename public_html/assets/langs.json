@@ -1,0 +1,81 @@
+{
+	"some_personal_projects": { "br": "Alguns projetos Pessoais", "en": "Some personal projects" },
+	"some_zonainternet_projects": { "br": "Alguns projetos p/ Zona Internet", "en": "Some projects for Zona Internet" },
+
+	"projects": { "br": "Projetos", "en": "Projects" },
+	"technologies": { "br": "Tecnologias", "en": "Technologies" },
+	"project_area": { "br": "O que fiz", "en": "Area" },
+	"project_link": { "br": "Acesse o link do projeto", "en": "Go to project website" },
+
+	"cat_pessoal": { "br": "Pessoais", "en": "Personal" },
+	"cat_pessoal_blogs": { "br": "Pessoais - Blogs", "en": "Personal - Blogs" },
+	"cat_zonainternet": { "br": "Para: Zona Internet", "en": "For: Zona Internet" },
+
+	"contact": { "br": "Contato", "en": "Contact" },
+	"empty_field": { "br": "Campo Vazio", "en": "Empty Field" },
+	"invalid_email": { "br": "Email Invalido", "en": "Invalid Email" },
+	"form_name" : { "br": "Nome", "en": "Name" },
+	"form_subject" : { "br": "Assunto", "en": "Subject" },
+
+	"form_subject_bugdet": { "br": "Orçamento", "en": "Budget" },
+	"form_subject_questions": { "br": "Dúvidas", "en": "Questions" },
+	"form_subject_suggestions": { "br": "Sugestões", "en": "Suggestions" },
+	"form_subject_opinion": { "br": "Opinião", "en": "Opinion" },
+	"form_subject_chat": { "br": "Bater um papo", "en": "Just chatting" },
+	"form_subject_other": { "br": "Outro" , "en": "Other" },
+
+	"form_message" : { "br": "Mensagem", "en": "Message" },
+	"form_send" : { "br": "Enviar", "en": "Send" },
+	"form_ok" : { "br": "Ei, sua mensagem foi enviada com sucesso!", "en": "Your message was sent successfully!" },
+	"form_error" : { "br": "Algo ruim aconteceu :(", "en": "Something went wrong :(" },
+
+	"about_me": { "br": "Sobre Mim", "en": "About Me" },
+	"about_internship": { "br": "Estágio", "en": "Intership" },
+	"about_dec": { "br": "Dez", "en": "Dec" },
+	"about_feb": { "br": "Fev", "en": "Feb" },
+
+	"about_zonainternet_1": { "br": "Desenvolvimento Web (Frontend &amp; Backend) utilizando wordpress.", "en": "Web development (Frontend &amp; Backend) with wordpress." },
+	"about_zonainternet_2": { "br": "Montagem de landing page e newsletter.", "en": "Development of landing pages and newsletter layouts." },
+	"about_zonainternet_3": { "br": "Um café supimpa (bebo todo, também hehe).", "en": "I make an awesome coffee." },
+
+	"about_labbio_1": {"br": "Desenvolvimento do sistema de inscrição e gerenciamento da colônia de férias Kinderland.", "en": "Development of the registration and management system for the Kinderland summer camp."},
+	"about_labbio_2": {"br": "Modificações no protótipo do sistema feito em Java.", "en": "Modified the code of the current used Java app."},
+	"about_labbio_3": {"br": "Reestruturação do banco de dados da colônia.", "en": "Restructuring of its database."},
+	"about_labbio_4": {"br": "Reestruturação do sistema Java em PHP.", "en": "Development of a new management system using PHP."},
+	"about_labbio_5": {"br": "Redesign do layout do painel de administração.", "en": "System dashboard redesigned."},
+
+	"about_edp_1": { "br": "Sistema de e-mails em massa (PHP).", "en": "Newsletter system (PHP)."},
+	"about_edp_2": { "br": "Desenvolvimento do site wordpress para o restaurante.", "en": "New website using wordpress as its CMS."},
+
+	"for": {"br": "para", "en": "for" },
+						
+	"about_desc_1": {
+		"br": "Olá você. Se você clicou em processe-nos, parabéns, já está processando. Epa, pera, <a href=\"http://www.desencannes.com/processenos.php\" target=\"_blank\">texto errado</a>.",
+		"en" : ""
+	},
+	"about_desc_2": {
+		"br": "Oi! Chamo-me Christian, carioca com 23 anos e estou envolvido com desenvolvimento, de maneira geral, desde meus 11 anos, quando me interessei por computadores por culpa dos malditos/benditos jogos online. Deste então, tenho adquirido conhecimento e experiência em diversas linguagens de programação, focando, ultimamente, nas relacionadas à Web. Há anos que venho estudando e evoluindo meus conhecimentos da área e estou sempre sedento por mais (sério, a web é muito fascinante, para e pensa só... que doideira!).",
+		"en": "Hi, my name is Christian, a carioca with 23 years old. I've been involved with development since I was 11, when I started taking an interest in computers thanks to online games. Since then, I have aquired knowledge and experience in many programming languages, with my focus lately being on those related to Web. For years I have been studying and evolving my knowledge in the area and I'm always hungry for more (seriously, the web is fascinating. Think about it! It's crazy!)"
+		},
+	"about_desc_3": {
+		"br": "Você pode chegar um pouco sobre meu background aqui embaixo e ver meus projetos clicando nos livros da minha",
+		"en": "You can check my background below and see my projects by clicking the books in my"
+	},
+	"about_skills": {"br": "Habilidades", "en": "Skills" },
+	"about_languages": {"br": "Idiomas", "en": "Languages" },
+	"about_software_mac": { "br": "Programar e projetar", "en": "Designing and coding" },
+	"about_software_windows": { "br": "Programar e jogar", "en": "Coding and gaming" },
+	"about_software_ai": { "br": "Icones e outros vetores", "en": "Icons and other vectors" },
+	"about_software_axure": { "br": "Wireframes e protótipos", "en": "Wireframes and prototypes" },
+	"about_software_ps": { "br": "Projetar layouts", "en": "Layout designing" },
+	"about_software_atom": { "br": "Para o desenvolvedor pioneiro", "en": "For the pioneer developer" },
+	"about_software_github": { "br": "Compartilhar projetos e manter consistência", "en": "Sharing projects and mantaining consistency" },
+	"about_software_wp": { "br": "Para facilitar o gerenciamento de conteúdo", "en": "Easy content management" },
+	"about_music": { "br": "Música", "en": "Music" },
+	"about_music_desc": { "br": "Não dá pra viver sem", "en": "Just can't live without it" },
+	"about_guitar": { "br": "Guitarra", "en": "Guitar" },
+	"about_guitar_desc": { "br": "Ajuda com o processo criativo", "en": "Helps with the creative process" },
+	"about_ds": { "br": "Meu 3DS <3", "en": "My 3DS <3" },
+	"about_ds_desc": { "br": "Para aquelas filas loooongas", "en": "For the loooong waiting lines" },
+	"about_videogames_desc": { "br": "Todo mundo tem um vício, né? ;)", "en": "Everyone has an addiction, right? ;)" }
+}

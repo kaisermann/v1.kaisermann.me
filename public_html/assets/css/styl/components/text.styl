@@ -1,0 +1,91 @@
+$scribble-font-base = 28px
+
+h2
+	font-family Dudu Calligraphy
+	font-size 32px
+	letter-spacing 4px
+	margin-bottom 15px
+	
+h3
+	font-family Dudu Calligraphy
+	font-size 28px
+	letter-spacing 2px
+	margin-bottom 15px
+	
+h4
+	font-family Dudu Calligraphy
+	font-size 28px
+	letter-spacing 2px
+	
+a
+	color $roxo
+	text-decoration none
+	&:hover
+		text-decoration underline
+			
+p + p
+	margin-top 25px
+		
+.text--doodle
+	font-family Dudu Calligraphy
+	font-size $scribble-font-base
+	letter-spacing 4px
+	color $preto
+	
+	span
+		display inline-block
+		vertical-align top
+	
+		&:nth-child(2n)
+			animation fontsize-1 .5s ease infinite, smallrotate .6s ease infinite
+	
+		&:nth-child(2n+1)
+			animation fontsize-2 .5s ease infinite, smallrotate reverse .6s ease infinite
+
+@keyframes smallrotate {
+	0% { transform: rotateZ(0deg); }
+	25% { transform: rotateZ(-2deg); }
+	50% { transform: rotateZ(0deg); }
+	75% { transform: rotateZ(2deg); }
+	100% { transform: rotateZ(0deg); }
+}
+		
+@keyframes fontsize-1 {
+	0% { font-size: ($scribble-font-base - 1); }
+	50% { font-size: ($scribble-font-base + 1); }
+	100% { font-size: ($scribble-font-base - 1); }
+}
+
+@keyframes fontsize-2 {
+	0% { font-size: ($scribble-font-base + 1); }
+	50% { font-size: ($scribble-font-base); }
+	100% { font-size: ($scribble-font-base + 1); }
+}
+
+.object__tooltip
+	position absolute
+	opacity 0
+	width 100%
+	text-align center
+	transition top .6s ease-out, bottom .6s ease-out, opacity .4s .2s ease
+	left 0
+		
+.object__tooltip--active
+.tooltip--container:hover .tooltip--hoverable
+	opacity 1
+	
+	&.tooltip--top
+		bottom 110%
+	
+	&.tooltip--bottom
+		top 110%
+	
+.tooltip--top
+	bottom 90%
+	
+.tooltip--bottom
+	top 90%
+		
+.title--padded
+	margin-left 20px
+	

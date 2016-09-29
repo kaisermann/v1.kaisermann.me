@@ -1,0 +1,527 @@
+.clear--after
+	&::after
+		content ''
+		clear both
+		display block
+	
+.about-wrapper
+.project-wrapper
+	max-width 992px
+	margin 12px auto 62px
+	
+.about-wrapper
+	font-family Dudu Calligraphy
+	font-size 20px
+	line-height 140%
+	
+	ul
+		li
+			&::before
+				content '-'
+				display inline-block
+				margin-right 8px
+				
+			+ li
+				margin-top 5px
+			padding-left 30px
+			
+	.about__exp
+		> ul > li
+			margin-top 15px
+			font-size 24px
+			font-weight bold
+			
+			li
+				font-size 20px
+				font-weight normal
+			
+
+.about__exp
+.about__jobs 
+.about__top
+	color $branco
+	
+.about__top
+	display table
+	background-color $verde
+	overflow hidden
+	border-top-left-radius 80px
+	
+.about__image-wrapper
+	display table-cell
+	vertical-align top
+	background-size cover
+	background-position center top
+	width 30%
+	height 390px
+	
+.about__description
+	display table-cell
+	vertical-align middle
+	width 70%
+	padding 20px
+	
+.about__jobs
+	background-color $roxo
+	padding 20px
+	border-bottom-right-radius 80px
+	
+.about__exp
+	padding 20px
+	background-color $vermelho
+	
+.job__item
+	margin-left 15px
+	
+	span
+		font-size 22px
+		color $amarelo
+		
+	small
+		font-size 14px
+		color lighten($verde,30%)
+	
+.job__section + .job__section
+.job__item + .job__item
+	margin-top 25px
+	
+.row
+	display block
+	width 100%
+	margin 0 -20px
+	&::after
+		content ''
+		clear both
+		display block
+		
+.about__jobs
+.about__top
+	display block
+
+.exp--row
+	+ .exp--row
+		margin-top 25px
+		
+.col-half
+	float left
+	width 50%
+	padding 0 20px
+	
+.exp-section-title
+	display block
+	font-size 24px
+	font-weight bold
+	position relative
+	border-bottom 2px dashed $branco
+	margin-bottom 5px
+	
+.skill__item--divisor
+	margin 8px auto
+	width 80%
+	height 1px
+	border-bottom 1px dashed $branco
+	
+.skill__item
+	position relative
+	margin-top 8px
+	
+.skill__bar
+		position absolute
+		top 0
+		left 0
+		min-width 1%
+		width 1%
+		height 100%
+		background $preto
+		color $branco
+		z-index 0
+		border-radius 4px
+		transition width 1s ease-in-out
+		
+.skill__name
+	position relative
+	z-index 1
+	margin-left 10px
+	line-height 1
+	
+.about-list 
+	font-size 0
+	
+.list__item
+	width 50%
+	display inline-block
+	vertical-align top
+	padding 15px
+	text-align center
+	line-height 1
+	font-size 18px
+	opacity 0
+	transform translateY(-50%)
+	
+	a
+		color $branco
+		display block
+		transition all .3s ease
+		
+		.list__name
+			text-decoration underline
+		
+		&:hover
+			transform scale(1.05)
+			text-decoration none
+			color $amarelo
+	
+.list__item--third
+	width (100 / 3)%
+	
+.list__icon
+	display block
+	&::before
+		font-size 60px
+		
+.list__name
+	display block
+	margin 8px
+	font-weight bold
+	
+.list__desc
+	font-size 14px
+	
+.rated-list__item
+	+ .rated-list__item
+		margin-top 15px
+
+.rated-list__rate
+	height 20px
+	margin 2px -5px 0
+	
+.rate__square
+	display inline-block
+	size(8%, 20px)
+	background $amarelo
+	margin 0 1%
+	
+.rate--blue
+	.rate__square
+		background $azul
+		
+.rate--green
+	.rate__square
+		background $verde
+	
+.about__credits
+	font-size 10px
+	text-align center
+	margin-top 5px
+	line-height 140%
+					
+	
+@media(max-width:767px)
+
+	.about__description	
+		padding-bottom 25px
+				
+	.about__top	
+		display block
+		border-top-left-radius 0 
+		
+	.about__jobs
+		border-bottom-right-radius 0
+		
+	.about__description	
+		display block
+		padding-top 25px
+		width 100%
+		
+	.about__image-wrapper
+		display block
+		width 280px
+		height 350px
+		margin 25px auto 0
+		
+
+	.row
+		margin 0
+		
+	.col-half
+		width 100%
+		padding 0
+		float none
+		
+		+ .col-half
+			margin-top 20px
+
+@media(max-width:480px)
+	.about-wrapper
+		margin-bottom 40px
+		h3
+			text-align center
+			
+		ul > li
+			padding-left 0
+			li
+				padding-left 25px
+							
+		.about__exp
+			> ul > li
+				margin-top 30px
+				
+	.about__jobs
+	.about__exp
+		padding 20px 5px
+		
+	.job__item
+		small
+			display inline-block
+			
+	.list__item
+	.list__item--third
+		float none
+		width 50%
+			
+	.about__credits
+		padding 0 10px
+
+.project__grid
+	margin 0 -10px 30px
+
+.project__item
+	width (100 / 3)%
+	float left
+	position relative
+	
+	&:nth-child(3n+1)
+		clear left
+	
+	img
+		display block
+		max-width 100%
+		height auto
+	
+.project__item:nth-child(3n+2)
+	.project__complete
+		margin-left -100%
+	
+.project__item:nth-child(3n+3)
+	.project__complete
+		margin-left -200%
+		
+.project__link
+	display block
+	position relative
+	margin 10px
+	
+	img
+		transition transform .3s ease-in-out
+		
+	&::after
+		content ''
+		size(0)
+		border-style solid
+		border-width 0 10px 10px 10px
+		border-color transparent transparent $preto transparent
+		bottom -10px
+		position absolute
+		absolute-horizontal-center()
+		opacity 0 
+		
+	&:hover
+		.project__base::before
+			opacity .6
+	
+.project__base
+	position absolute
+	top 0
+	left 0
+	size(100%)
+	
+	&::before
+		content ''
+		position absolute
+		size(100%)
+		opacity .3
+		transition opacity .3s ease
+	
+.project__base-title
+	position absolute
+	translate-center()
+	color $branco
+	text-align center
+	text-shadow $preto 0 0 8px, $preto 0 0 10px
+	
+.project__complete
+	width 300%
+	overflow hidden
+	display none
+	position relative
+	
+.project--expanded
+	.project__link::after
+		opacity 1
+	
+.project__complete-wrapper
+	margin 0 10px
+	padding 20px
+	height 100%
+		
+.project__slides
+	float left
+	width 60%
+	overflow hidden
+	border 10px rgba($branco, .4) solid
+	position relative
+	
+.project__slides-wrapper
+	position relative
+	background-position center
+	background-repeat no-repeat
+	background-color $preto
+			
+.project__slide
+	width 100%
+	min-height 160px
+	background-color $preto
+	max-height 400px
+	overflow auto
+	
+.flickity-viewport
+	height 400px
+	max-height 400px
+	transition max-height .3s ease
+	
+.slide--active
+	opacity 1	
+		
+.project__infos
+	font-family Dudu Calligraphy
+	float left
+	width 40%
+	padding-left 20px
+	color $branco
+	a
+		color $branco
+		text-decoration underline
+		display inline-block
+		text-decoration underline
+	
+.project--color-3
+	.project__infos
+		color $preto
+		
+		a
+			color $preto
+	
+.project__title
+	margin-bottom 15px
+	
+.project__desc
+	line-height 140%
+	height auto
+	overflow auto
+	text-align justify
+	
+.project__address
+	margin-top 25px	
+	
+	
+@media(max-width:991px)
+
+	.project__grid
+		margin-left 10px
+		margin-right 10px
+			
+	.project__list
+		h3
+			margin-left 20px
+	
+@media(max-width:768px)	
+
+	.project__item
+		width 50%
+			
+		&:nth-child(3n+1)
+		&:nth-child(3n+2)
+		&:nth-child(3n+3)
+			clear none
+			.project__complete
+				margin-left 0
+	
+			
+		&:nth-child(2n+1)
+			clear left
+			
+		&:nth-child(2n+2)
+			.project__complete
+				margin-left -100%
+	
+	.project__complete
+		width 200%		
+			
+	.project__slides
+	.project__infos
+		width 100%
+		float none
+		
+	.project__slides
+		border none
+	
+	.project__complete-wrapper
+		padding 0
+		
+	.project__infos
+		padding 20px
+		
+	.flickity-viewport
+	.project__slide
+		max-height 280px
+		
+@media(max-width:480px)
+	.project__grid
+		margin-left -10px
+		margin-right -10px
+		
+	.project__base-title
+		font-size 20px
+		
+	.flickity-viewport
+		max-height 300px
+	
+.skill--green
+.project__base--color-1::before
+.project--color-1 .project__complete-wrapper
+	background-color $verde
+	
+.project--color-1 .project__link::after
+	border-bottom-color $verde
+	
+.skill--blue
+.project__base--color-2::before
+.project--color-2 .project__complete-wrapper
+	background-color $azul
+	
+.project--color-2 .project__link::after
+	border-bottom-color $azul
+	
+.skill--yellow
+.project__base--color-3::before
+.project--color-3 .project__complete-wrapper
+	background-color $amarelo
+	
+.project--color-3 .project__link::after
+	border-bottom-color $amarelo
+	
+.project__base--color-4::before
+.project--color-4 .project__complete-wrapper
+	background-color $vermelho
+	
+.project--color-4 .project__link::after
+	border-bottom-color $vermelho
+	
+.skill--purple
+.project__base--color-5::before
+.project--color-5 .project__complete-wrapper
+	background-color $roxo
+	
+.project--color-5 .project__link::after
+	border-bottom-color $roxo
+		

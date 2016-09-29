@@ -1,0 +1,13 @@
+{  
+	"name":"Asa Resiliência",
+	"id":"espacoasa",
+	"category": "cat_zonainternet",
+	"desc":
+	{
+		"br": ["Espaço voltado para o desenvolvimento das habilidades essenciais para alcançar a resiliência emocional.",
+		"O novo layout segue a, também nova, identidade da marca, além de permitir agendamentos de cursos, palestras e outros eventos."],
+		"en": ["Space dedicated to the development of essential skills to achieve emotional resilience.","The new layout follows the also new brand identity and allows scheduling of courses, lectures and other types of events."]
+	},
+	"area":"Frontend & Backend",
+	"url":"http://espacoasa.com.br/"
+}

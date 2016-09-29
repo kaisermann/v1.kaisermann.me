@@ -1,0 +1,12 @@
+{  
+	"name":"Girls On Road",
+	"id":"girlsonroad",
+	"category": "cat_pessoal_blogs",
+	"desc":
+	{
+		"br": ["O Girls On Road é mais um site do que um blog. Com uma equipe composta por 10 membros, lá você pode encontrar posts sobre música indie e rock, shows e festivais no Brasil, textos e tutoriais diversos."],
+		"en": ["Girls On The Road is a modern but casual music and fashion blog. With a team of 7 members, there you can find posts about indie and rock music, concerts and festivals in Brazil, various types of texts and several tutorials."]
+	},
+	"area":"Layout & Frontend & Backend",
+	"url":"http://girlsonroad.com"
+}

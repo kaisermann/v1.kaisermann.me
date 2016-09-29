@@ -1,0 +1,6 @@
+[19-Mar-2016 07:40:37 America/Chicago] PHP Warning:  include(pages/.php): failed to open stream: No such file or directory in /home/chrispif/public_html/kaisermann.me/query.php on line 9
+[19-Mar-2016 07:40:37 America/Chicago] PHP Warning:  include(pages/.php): failed to open stream: No such file or directory in /home/chrispif/public_html/kaisermann.me/query.php on line 9
+[19-Mar-2016 07:40:37 America/Chicago] PHP Warning:  include(): Failed opening 'pages/.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/chrispif/public_html/kaisermann.me/query.php on line 9
+[30-Mar-2016 09:14:13 America/Chicago] PHP Warning:  include(pages/.php): failed to open stream: No such file or directory in /home/chrispif/public_html/kaisermann.me/query.php on line 9
+[30-Mar-2016 09:14:13 America/Chicago] PHP Warning:  include(pages/.php): failed to open stream: No such file or directory in /home/chrispif/public_html/kaisermann.me/query.php on line 9
+[30-Mar-2016 09:14:13 America/Chicago] PHP Warning:  include(): Failed opening 'pages/.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/chrispif/public_html/kaisermann.me/query.php on line 9

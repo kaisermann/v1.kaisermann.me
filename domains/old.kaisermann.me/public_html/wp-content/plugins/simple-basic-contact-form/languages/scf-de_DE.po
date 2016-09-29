@@ -1,0 +1,1059 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Basic Contact Form v20130712\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-05 11:01+0100\n"
+"PO-Revision-Date: 2015-10-05 11:56+0100\n"
+"Last-Translator: Sven Bamberger <s.bamberger@blanchwood.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: no\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+# @ scf
+#: simple-basic-contact-form.php:24
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:24
+msgid "Simple Basic Contact Form"
+msgstr "Simple Basic Contact Form"
+
+#: simple-basic-contact-form.php:43
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:43
+msgid "requires WordPress "
+msgstr "benötigt WordPress"
+
+# @ scf
+#: simple-basic-contact-form.php:43
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:43
+msgid " or higher, and has been deactivated!"
+msgstr "benötigt WordPress 3.4 oder höher, und wurde deaktiviert!"
+
+# @ scf
+#: simple-basic-contact-form.php:44
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:44
+msgid "Please return to the"
+msgstr "Bitte zurück nach"
+
+# @ scf
+#: simple-basic-contact-form.php:44
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:44
+msgid "WordPress Admin area"
+msgstr "WordPress-Admin-Bereich"
+
+# @ scf
+#: simple-basic-contact-form.php:44
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:44
+msgid "to upgrade WordPress and try again."
+msgstr "Wordpress upgraden und noch einmal probieren."
+
+#: simple-basic-contact-form.php:182
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:182
+msgid ""
+"Please do not include any of the following in the Name, Email, or Subject "
+"fields: linebreaks, or the phrases \"mime-version\", \"content-type\", \"cc:"
+"\" or \"to:\"."
+msgstr ""
+"Please do not include any of the following in the Name, Email, or Subject "
+"fields: linebreaks, or the phrases \"mime-version\", \"content-type\", \"cc:"
+"\" or \"to:\"."
+
+#: simple-basic-contact-form.php:185
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:185
+msgid ""
+"Invalid nonce value! Please try again or contact the administrator for help."
+msgstr ""
+"Ungültige Nonce-Wert! Bitte versuchen Sie es erneut oder wenden Sie sich an "
+"den Administrator für Hilfe."
+
+#: simple-basic-contact-form.php:262
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:262
+msgid "Hello "
+msgstr "Hallo"
+
+#: simple-basic-contact-form.php:264
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:264
+msgid "You are being contacted via "
+msgstr "Du wurdest kontaktiert via"
+
+#: simple-basic-contact-form.php:266 simple-basic-contact-form.php:300
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:266
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:300
+msgid "Name: "
+msgstr "Name:"
+
+#: simple-basic-contact-form.php:267 simple-basic-contact-form.php:301
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:267
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:301
+msgid "Email: "
+msgstr "E-Mail Adresse:"
+
+# @ scf
+#: simple-basic-contact-form.php:268 simple-basic-contact-form.php:297
+#: simple-basic-contact-form.php:304
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:268
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:297
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:304
+msgid "Message: "
+msgstr "Nachricht: "
+
+#: simple-basic-contact-form.php:272
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:272
+msgid "-----------------------"
+msgstr "-----------------------"
+
+#: simple-basic-contact-form.php:274
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:274
+msgid "Additional Information: "
+msgstr "Weitere Informationen:"
+
+#: simple-basic-contact-form.php:276
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:276
+msgid "Site: "
+msgstr "Seite:"
+
+#: simple-basic-contact-form.php:277
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:277
+msgid "URL: "
+msgstr "URL:"
+
+# @ scf
+#: simple-basic-contact-form.php:278 simple-basic-contact-form.php:303
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:278
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:303
+msgid "Date: "
+msgstr "Datum: "
+
+#: simple-basic-contact-form.php:279
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:279
+msgid "IP: "
+msgstr "IP:"
+
+#: simple-basic-contact-form.php:280
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:280
+msgid "Host: "
+msgstr "Host:"
+
+#: simple-basic-contact-form.php:281
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:281
+msgid "Agent: "
+msgstr "Agent:"
+
+#: simple-basic-contact-form.php:295
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:295
+msgid "[ "
+msgstr "["
+
+#: simple-basic-contact-form.php:295
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:295
+msgid "Click here to reset the form"
+msgstr "Klicken Sie hier, um das Formular zurückzusetzen"
+
+#: simple-basic-contact-form.php:295
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:295
+msgid " ]"
+msgstr "]"
+
+#: simple-basic-contact-form.php:302
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:302
+msgid "Subject: "
+msgstr "Betreff:"
+
+# @ scf
+#: simple-basic-contact-form.php:371
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:371
+msgid "Send email"
+msgstr "Nachricht senden"
+
+# @ scf
+#: simple-basic-contact-form.php:387
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:387
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: simple-basic-contact-form.php:430
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:430
+msgid "Message sent from your contact form."
+msgstr "Nachricht wurde von Ihrem Kontaktformular gesendet."
+
+#: simple-basic-contact-form.php:431
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:431
+msgid "1 + 1 ="
+msgstr "1 + 1 ="
+
+#: simple-basic-contact-form.php:432
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:432
+msgid "2"
+msgstr "2"
+
+#: simple-basic-contact-form.php:434
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:434
+msgid "Name (Required)"
+msgstr "Name (benötigt)"
+
+#: simple-basic-contact-form.php:435
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:435
+msgid "Email (Required)"
+msgstr "E-Mail Adresse (benötigt)"
+
+#: simple-basic-contact-form.php:436
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:436
+msgid "Subject (Required)"
+msgstr "Betreff (benötigt)"
+
+#: simple-basic-contact-form.php:437
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:437
+msgid "Message (Required)"
+msgstr "Nachricht (benötigt)"
+
+# @ scf
+#: simple-basic-contact-form.php:438
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:438
+msgid "Success!"
+msgstr "Erfolg!"
+
+#: simple-basic-contact-form.php:438
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:438
+msgid "Your message has been sent."
+msgstr "Ihre Nachricht wurde gesendet"
+
+#: simple-basic-contact-form.php:439
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:439
+msgid "Please complete the required fields."
+msgstr "Bitt füllen Sie die benötigten Felder aus."
+
+#: simple-basic-contact-form.php:440
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:440
+msgid "Incorrect response for challenge question. Please try again."
+msgstr "Falsche Antwort zur Sicherheitsfrage. Bitte versuche es erneut."
+
+# @ scf
+#: simple-basic-contact-form.php:449 simple-basic-contact-form.php:627
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:449
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:627
+msgid "Your Name"
+msgstr "Ihr Name"
+
+# @ scf
+#: simple-basic-contact-form.php:450 simple-basic-contact-form.php:632
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:450
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:632
+msgid "Your Email"
+msgstr "Ihre Email-Adresse"
+
+# @ scf
+#: simple-basic-contact-form.php:451
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:451
+msgid "Email Subject"
+msgstr "E-Mail Betreff"
+
+# @ scf
+#: simple-basic-contact-form.php:452
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:452
+msgid "Correct Response"
+msgstr "Korrekte Antwort"
+
+# @ scf
+#: simple-basic-contact-form.php:453
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:453
+msgid "Your Message"
+msgstr "Ihre Nachricht"
+
+# @ scf
+#: simple-basic-contact-form.php:586
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:586
+msgid "Toggle all panels"
+msgstr "Alle Panels umschalten"
+
+# @ scf
+#: simple-basic-contact-form.php:594
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:594
+msgid "Overview"
+msgstr "Überblick"
+
+# @ scf
+#: simple-basic-contact-form.php:598
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:598
+msgid ""
+"(SBCF) is a simple basic contact form for your WordPress-powered website. "
+"Automatically sends a carbon copy to the sender."
+msgstr ""
+"(SBCF) ist ein einfaches Kontakt-Formular für WordPress-betriebene Websites. "
+"Verschickt automatisch Kopien an den Sender."
+
+# @ scf
+#: simple-basic-contact-form.php:599
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:599
+msgid ""
+"Simply choose your options, then add the shortcode to any post or page to "
+"display the contact form. For a contact form with more options try "
+msgstr ""
+"Wählen Sie einfach Ihre Einstellungen, dann fügen Sie den Shortcode in jeden "
+"Blockeintrag oder jede Seite ein, um das Kontakt-Formular anzuzeigen. Für "
+"ein Formular mit mehr Optionen versuchen Sie "
+
+# @ scf
+#: simple-basic-contact-form.php:603
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:603
+msgid "To configure the contact form, visit the"
+msgstr "Um das Kontakt-Formular zu konfigurieren, besuchen Sie"
+
+# @ scf
+#: simple-basic-contact-form.php:603
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:603
+msgid "Options panel"
+msgstr "Optionen"
+
+# @ scf
+#: simple-basic-contact-form.php:604
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:604
+msgid "For the shortcode and template tag, visit"
+msgstr "Für den Shortcode und das Template-Tag besuchen Sie"
+
+# @ scf
+#: simple-basic-contact-form.php:604 simple-basic-contact-form.php:804
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:604
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:804
+msgid "Shortcodes &amp; Template Tags"
+msgstr "Shortcodes &amp; Template-Tags"
+
+# @ scf
+#: simple-basic-contact-form.php:605
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:605
+msgid "To restore default settings, visit"
+msgstr "Zum Zurücksetzen zu den Default-Einstellungen, besuchen Sie"
+
+# @ scf
+#: simple-basic-contact-form.php:605 simple-basic-contact-form.php:816
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:605
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:816
+msgid "Restore Default Options"
+msgstr "Zurück zu den Default-Einstellungen"
+
+# @ scf
+#: simple-basic-contact-form.php:607
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:607
+msgid "For more information check the"
+msgstr "Für mehr Informationen besuchen Sie"
+
+# @ scf
+#: simple-basic-contact-form.php:608
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:608
+msgid "and"
+msgstr "und"
+
+# @ scf
+#: simple-basic-contact-form.php:608
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:608
+msgid "SBCF Homepage"
+msgstr "SBCF Homepage"
+
+#: simple-basic-contact-form.php:610
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:610
+msgid "If you like this plugin, please"
+msgstr "Falls Sie dieses Plugin mögen, bitte"
+
+#: simple-basic-contact-form.php:611
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:611
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Klicken Sie hier um das Plugin auf WordPress.org zu bewerten."
+
+#: simple-basic-contact-form.php:612
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:612
+msgid "rate it at the Plugin Directory"
+msgstr "im Plugin Bereich bewerten"
+
+# @ scf
+#: simple-basic-contact-form.php:620
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:620
+msgid "Options"
+msgstr "Optionen"
+
+# @ scf
+#: simple-basic-contact-form.php:622
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:622
+msgid "Configure the contact form.."
+msgstr "Kontakt-Formular konfigurieren."
+
+# @ scf
+#: simple-basic-contact-form.php:623
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:623
+msgid "General options"
+msgstr "Allgemeine Einstellungen"
+
+# @ scf
+#: simple-basic-contact-form.php:629
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:629
+msgid ""
+"How would you like to be addressed in messages sent from the contact form?"
+msgstr "Wie möchten Sie in Mails aus dem Formular angesprochen werden?"
+
+# @ scf
+#: simple-basic-contact-form.php:634
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:634
+msgid "Where would you like to receive messages sent from the contact form?"
+msgstr "An welche Adresse sollen die Mails aus dem Formular geschickt werden?"
+
+# @ scf
+#: simple-basic-contact-form.php:637
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:637
+msgid "Your Site"
+msgstr "Ihre WebSite"
+
+# @ scf
+#: simple-basic-contact-form.php:639
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:639
+msgid "From where should the contact messages indicate they were sent?"
+msgstr "Wie lautet der Absender der Mails aus dem Formular?"
+
+# @ scf
+#: simple-basic-contact-form.php:642
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:642
+msgid "Default Subject"
+msgstr "Standard-Betreff"
+
+#: simple-basic-contact-form.php:644
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:644
+msgid ""
+"Specify any value here to hide the Subject field (or leave blank to display "
+"the Subject field)."
+msgstr ""
+"Geben Sie hier einen beliebigen Wert an, um das Feld Betreff zu verstecken "
+"(oder leer lassen, um das Feld Betreff anzuzeigen)."
+
+# @ scf
+#: simple-basic-contact-form.php:647
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:647
+msgid "Enable Captcha"
+msgstr "Captcha aktivieren"
+
+# @ scf
+#: simple-basic-contact-form.php:649
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:649
+msgid ""
+"Check this box if you want to enable the captcha (challenge question/answer)."
+msgstr ""
+"Setze Sie einen Haken in dieser Box um Captcha zu aktivieren (Frage und "
+"Antwort)-"
+
+# @ scf
+#: simple-basic-contact-form.php:652
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:652
+msgid "Challenge Question"
+msgstr "Frage"
+
+# @ scf
+#: simple-basic-contact-form.php:654
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:654
+msgid "What question should be answered correctly before the message is sent?"
+msgstr "Welche Frage soll beantwortet werden, bevor die Mail versendet wird?"
+
+# @ scf
+#: simple-basic-contact-form.php:657
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:657
+msgid "Challenge Response"
+msgstr "Antwort"
+
+# @ scf
+#: simple-basic-contact-form.php:659
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:659
+msgid "What is the <em>only</em> correct answer to the challenge question?"
+msgstr "Wie lautet die <em>einzig-richtige</em> Antwort?"
+
+# @ scf
+#: simple-basic-contact-form.php:662
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:662
+msgid "Case-sensitive?"
+msgstr "Groß-/Kleinschreibung beachten?"
+
+# @ scf
+#: simple-basic-contact-form.php:664
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:664
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr ""
+"Machen Sie hier ein Häkchen, wenn bei der Antwort die Schreibweise geprüft "
+"werden soll."
+
+# @ scf
+#: simple-basic-contact-form.php:667
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:667
+msgid "Time Offset"
+msgstr "Zeitverschiebung"
+
+# @ scf
+#: simple-basic-contact-form.php:671
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:671
+msgid ""
+"Please specify any time offset here. For example, \"+7\" or \"-7\". If no "
+"offset or unsure, enter \"0\" (zero, default)."
+msgstr ""
+"Bitte geben Sie hier die Zeitverschiebung an. Zum Beispiel \"+2\" oder "
+"\"-2\" bezüglich GMT, Bei keiner Zeitverschiebung bitte \"0\" (null, "
+"Standard) angeben."
+
+# @ scf
+#: simple-basic-contact-form.php:672
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:672
+msgid "Current time:"
+msgstr "Aktuelle Zeit:"
+
+# @ scf
+#: simple-basic-contact-form.php:677
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:677
+msgid "Enable Carbon Copies?"
+msgstr "Sollen Kopien versendet werden?"
+
+# @ scf
+#: simple-basic-contact-form.php:679
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:679
+msgid ""
+"Check this box if you want to enable the automatic sending of carbon-copies "
+"to the sender."
+msgstr ""
+"Machen Sie hier ein Häkchen, wenn an den Sender eine Kopie der Mail "
+"geschickt werden soll."
+
+# @ scf
+#: simple-basic-contact-form.php:682
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:682
+msgid "Mail Function"
+msgstr "Mail-Funktion"
+
+# @ scf
+#: simple-basic-contact-form.php:684
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:684
+msgid ""
+"Check this box if you want to use PHP&rsquo;s mail() function instead of "
+"WP&rsquo;s wp_mail() (default)."
+msgstr ""
+"Machen Sie hier ein Häkchen, wenn PHP&rsquo;s mail()-Funktion anstatt "
+"WP&rsquo;s wp_mail() (Standard) benutzt werden soll."
+
+# @ scf
+#: simple-basic-contact-form.php:687 simple-basic-contact-form.php:759
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:687
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:759
+msgid "Success Message"
+msgstr "Erfolgsnachricht"
+
+#: simple-basic-contact-form.php:689
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:689
+msgid ""
+"Check this box to display verbose success message (default), or uncheck for "
+"brief success message."
+msgstr ""
+"Markieren Sie dieses Kästchen, um eine ausführliche Erfolgsmeldung "
+"(Standard) anzuzeigen, oder deaktivieren Sie diese Option für eine kurze "
+"Erfolgsmeldung."
+
+# @ scf
+#: simple-basic-contact-form.php:693
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:693
+msgid "Appearance"
+msgstr "Aussehen"
+
+# @ scf
+#: simple-basic-contact-form.php:697
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:697
+msgid "Custom CSS styles"
+msgstr "Eigene CSS-Stile"
+
+# @ scf
+#: simple-basic-contact-form.php:699
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:699
+msgid ""
+"Add some CSS to style the contact form. Note: do not include the <code>&lt;"
+"style&gt;</code> tags.<br />\n"
+"\t\t\t\t\t\t\t\t\t\t\tNote: visit <a href=\"http://m0n.co/i\" target=\"_blank"
+"\">m0n.co/i</a> for complete list of CSS hooks."
+msgstr ""
+"Fügen Sie CSS-Stile für das Formular ein. Beachten Sie: Benutzen Sie nicht "
+"<code>&lt;style&gt;</code> tags.<br />\n"
+"\\\t\\\t\\\t\\\t\\\t\\\t\\\t\\\t\\\t\\\t\\\tBeachten Sie: besuchen Sie <a "
+"href=\"http://m0n.co/i\" target=\"_blank\">m0n.co/i</a> für eine komplette "
+"Liste der CSS-Hooks."
+
+# @ scf
+#: simple-basic-contact-form.php:704
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:704
+msgid "Field Captions &amp; Placeholders"
+msgstr "Feldnamen &amp; Platzhalter"
+
+# @ scf
+#: simple-basic-contact-form.php:708
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:708
+msgid "Caption for Name Field"
+msgstr "Feldnamen für Namensfest"
+
+# @ scf
+#: simple-basic-contact-form.php:710
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:710
+msgid "This is the caption that corresponds with the Name field."
+msgstr "Geben Sie den Namen für das Namensfeld an."
+
+# @ scf
+#: simple-basic-contact-form.php:713
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:713
+msgid "Caption for Email Field"
+msgstr "Feldnamen für das EMail-Feld"
+
+# @ scf
+#: simple-basic-contact-form.php:715
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:715
+msgid "This is the caption that corresponds with the Email field."
+msgstr "Geben Sie hier den Namen für das EMail-Feld an."
+
+# @ scf
+#: simple-basic-contact-form.php:718
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:718
+msgid "Caption for Subject Field"
+msgstr "Beschriftung für das Betrefffeld"
+
+# @ scf
+#: simple-basic-contact-form.php:720
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:720
+msgid "This is the caption that corresponds with the Subject field."
+msgstr "Dies ist ein Titel, der mit dem Betreff-Feld entspricht."
+
+# @ scf
+#: simple-basic-contact-form.php:723
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:723
+msgid "Caption for Message Field"
+msgstr "Feldnamen für das Nachricht-Feld"
+
+# @ scf
+#: simple-basic-contact-form.php:725
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:725
+msgid "This is the caption that corresponds with the Message field."
+msgstr "Geben Sie hier den Namen für das Nachricht-Feld an."
+
+# @ scf
+#: simple-basic-contact-form.php:728
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:728
+msgid "Placeholder for Name Field"
+msgstr "Platzhalter für das Namensfest"
+
+# @ scf
+#: simple-basic-contact-form.php:730
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:730
+msgid "This is the text appearing as the input placeholder for the Name field."
+msgstr "Dieser Text erscheint als Platzhalter für den Namen"
+
+# @ scf
+#: simple-basic-contact-form.php:733
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:733
+msgid "Placeholder for Email Field"
+msgstr "Platzhalter für das Emailfeld"
+
+# @ scf
+#: simple-basic-contact-form.php:735
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:735
+msgid ""
+"This is the text appearing as the input placeholder for the Email field."
+msgstr "Dieser Text erscheint als Platzhalter für die E-Mail."
+
+# @ scf
+#: simple-basic-contact-form.php:738
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:738
+msgid "Placeholder for Subject Field"
+msgstr "Platzhalter für den Betreff"
+
+# @ scf
+#: simple-basic-contact-form.php:740
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:740
+msgid ""
+"This is the text appearing as the input placeholder for the Subject field."
+msgstr "Dieser Text erscheint als Platzhalter für den Betreff"
+
+# @ scf
+#: simple-basic-contact-form.php:743
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:743
+msgid "Placeholder for Captcha Field"
+msgstr "Platzhalter für das Captcha-Feld"
+
+# @ scf
+#: simple-basic-contact-form.php:745
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:745
+msgid ""
+"This is the text appearing as the input placeholder for the Captcha field."
+msgstr "Dieser Text erschein als Platzhalter für das Captcha-Feld."
+
+# @ scf
+#: simple-basic-contact-form.php:748
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:748
+msgid "Placeholder for Message Field"
+msgstr "Platzhalter für das Nachricht-Feld"
+
+# @ scf
+#: simple-basic-contact-form.php:750
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:750
+msgid ""
+"This is the text appearing as the input placeholder for the Message field."
+msgstr "Dieser Text erscheint als Platzhalter für die Nachricht."
+
+# @ scf
+#: simple-basic-contact-form.php:754
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:754
+msgid "Success &amp; error messages"
+msgstr "Erfolgs- &amp; Fehlermeldungen"
+
+# @ scf
+#: simple-basic-contact-form.php:755
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:755
+msgid ""
+"Note: use single quotes for attributes. Example: <code>&lt;span "
+"class='error'&gt;</code>"
+msgstr ""
+"Beachten Sie: benutzen Sie einfache Anführungszeichen für Attribute. z.B.: "
+"<code>&lt;span class='error'&gt;</code>"
+
+# @ scf
+#: simple-basic-contact-form.php:761
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:761
+msgid ""
+"When the form is sucessfully submitted, this message will be displayed to "
+"the sender."
+msgstr ""
+"Wenn das Formular erfolgreich verarbeitet wurde, wird dem Besucher diese "
+"Nachricht gezeigt."
+
+# @ scf
+#: simple-basic-contact-form.php:764
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:764
+msgid "Error Message"
+msgstr "Fehlermeldung"
+
+# @ scf
+#: simple-basic-contact-form.php:766
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:766
+msgid "If the user skips a required field, this message will be displayed."
+msgstr ""
+"Wenn ein Besucher ein erforderliches Feld leer lässt, wird diese Nachricht "
+"angezeigt."
+
+# @ scf
+#: simple-basic-contact-form.php:769
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:769
+msgid "Incorrect Response"
+msgstr "Falsche Antwort"
+
+# @ scf
+#: simple-basic-contact-form.php:771
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:771
+msgid ""
+"When the challenge question is answered incorrectly, this message will be "
+"displayed."
+msgstr ""
+"Wenn die Captcha-Frage falsch beantwortet wurde, wird diese Nachricht "
+"angezeigt."
+
+# @ scf
+#: simple-basic-contact-form.php:774
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:774
+msgid "Error Fields"
+msgstr "Fehlerfelder"
+
+# @ scf
+#: simple-basic-contact-form.php:776
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:776
+msgid ""
+"Here you may specify the default CSS for error fields, or add other "
+"attributes."
+msgstr ""
+"Hier können Sie den CSS-Stil für die Fehlerfelder angeben oder andere "
+"Attribute hinzufügen."
+
+# @ scf
+#: simple-basic-contact-form.php:779
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:779
+msgid "Custom content before the form"
+msgstr "Eigener Inhalt vor dem Formular"
+
+# @ scf
+#: simple-basic-contact-form.php:781
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:781
+msgid ""
+"Add some text/markup to appear <em>before</em> the submitted contact form "
+"(optional)."
+msgstr ""
+"Fügen Sie hier Text oder html ein, der <em>vor</em> dem Formular erscheinen "
+"soll (optional)."
+
+# @ scf
+#: simple-basic-contact-form.php:784
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:784
+msgid "Custom content after the form"
+msgstr "Eigener Inhalt nach dem Formular"
+
+# @ scf
+#: simple-basic-contact-form.php:786
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:786
+msgid ""
+"Add some text/markup to appear <em>after</em> the submitted contact form "
+"(optional)."
+msgstr ""
+"Fügen Sie hier Text oder html ein, der <em>nach</em> dem Formular erscheinen "
+"soll (optional)."
+
+# @ scf
+#: simple-basic-contact-form.php:789
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:789
+msgid "Custom content before results"
+msgstr "Eigener Inhalt vor dem Ergebnis"
+
+# @ scf
+#: simple-basic-contact-form.php:791
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:791
+msgid ""
+"Add some text/markup to appear <em>before</em> the success message "
+"(optional)."
+msgstr ""
+"Fügen Sie hier Text oder html ein, der <em>vor</em> dem Ergebnis stehe soll "
+"(optional)."
+
+# @ scf
+#: simple-basic-contact-form.php:794
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:794
+msgid "Custom content after results"
+msgstr "Eigener Inhalt nach dem Ergebnis"
+
+# @ scf
+#: simple-basic-contact-form.php:796
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:796
+msgid ""
+"Add some text/markup to appear <em>after</em> the success message (optional)."
+msgstr ""
+"Fügen Sie hier Text oder html ein, der <em>nach</em> dem Ergebnis erscheinen "
+"soll (optional)."
+
+# @ scf
+#: simple-basic-contact-form.php:800 simple-basic-contact-form.php:827
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:800
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:827
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+# @ scf
+#: simple-basic-contact-form.php:806
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:806
+msgid "Shortcode"
+msgstr "Shortcode"
+
+# @ scf
+#: simple-basic-contact-form.php:807
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:807
+msgid "Use this shortcode to display the contact form on a post or page:"
+msgstr ""
+"Benutzen Sie diesen Shortcode, um das Formular in einem Blockbeitrag oder "
+"einer Seite erscheine zu lassen:"
+
+# @ scf
+#: simple-basic-contact-form.php:809
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:809
+msgid "Template tag"
+msgstr "Template-Tag"
+
+# @ scf
+#: simple-basic-contact-form.php:810
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:810
+msgid ""
+"Use this template tag to display the form anywhere in your theme template:"
+msgstr ""
+"Benutzen Sie diesen Template-Tag, um das Formular in Ihrem Template "
+"erscheinen zu lassen:"
+
+# @ scf
+#: simple-basic-contact-form.php:820
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:820
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr ""
+"Zurück zu den Werkseinstellungen, beim deaktivieren/reaktivieren des PlugIns."
+
+# @ scf
+#: simple-basic-contact-form.php:824
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:824
+msgid ""
+"<strong>Tip:</strong> leave this option unchecked to remember your settings. "
+"Or, to go ahead and restore all default options, check the box, save your "
+"settings, and then deactivate/reactivate the plugin."
+msgstr ""
+"<strong>Tip:</strong>Machen Sie hier kein Häkchen, wenn Ihre Einstellungen "
+"erhalten bleiben sollen."
+
+# @ scf
+#: simple-basic-contact-form.php:831
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:831
+msgid "Updates &amp; Info"
+msgstr "Updates &amp; Info"
+
+#: simple-basic-contact-form.php:841
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:841
+msgid "by"
+msgstr "von"
+
+# @ scf
+#: simple-basic-contact-form.php:876
+#: ../simple-basic-contact-form/simple-basic-contact-form.php:876
+msgid ""
+"Are you sure you want to restore all default options? (this action cannot be "
+"undone)"
+msgstr ""
+"Sind Sie sicher, dass Sie zurück zu den Standard-Einstellunge möchten? "
+"(Diese Aktion kann nicht zurückgängig gemacht werden!)"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:313
+msgid "usage: "
+msgstr "Nutzung:"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:821
+msgid ".__call__() not defined"
+msgstr ".__call__() nicht definiert"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1105
+#, python-format
+msgid "unknown parser %r (choices: %s)"
+msgstr "Unbekannter parser %r (Optionen: %s)"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1146
+#, python-format
+msgid "argument \"-\" with mode %r"
+msgstr "Argument  \"- \" mit Modus %r"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1349
+#, python-format
+msgid "cannot merge actions - two groups are named %r"
+msgstr ""
+"Aktionen konnten nicht zusammengeführt werden - Zwei Gruppen haben den "
+"gleichen Namen: %r"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1387
+msgid "'required' is an invalid argument for positionals"
+msgstr "'unverzichtbar' ist ein ungültiges Argument für positionals"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1407
+#, python-format
+msgid "invalid option string %r: must start with a character %r"
+msgstr "ungültige Zeichenkette% r: muss mit einem Zeichen% r beginnen"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1428
+#, python-format
+msgid "dest= is required for options like %r"
+msgstr "dest = für Optionen wie% r erforderlich"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1445
+#, python-format
+msgid "invalid conflict_resolution value: %r"
+msgstr "ungültiger conflict_resolution Wert: %r"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1463
+#, python-format
+msgid "conflicting option string(s): %s"
+msgstr "Konkurriende optionale Zeichenkette(n): %s"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1526
+msgid "mutually exclusive arguments must be optional"
+msgstr "Gegenseitige exklusive Argumente müssen Optionale sein"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1596
+msgid "positional arguments"
+msgstr "positions Argumente "
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1597
+msgid "optional arguments"
+msgstr "optionale Argumente"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1615
+msgid "show this help message and exit"
+msgstr "Zeige diese Hilfsnachricht und beende"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1621
+msgid "show program's version number and exit"
+msgstr "Zeige Programmversionsnummer und beende"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1653
+msgid "cannot have multiple subparser arguments"
+msgstr "Es dürfen keine multiplen subparser Argumente existieren"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1705
+#, python-format
+msgid "unrecognized arguments: %s"
+msgstr "Nicht erkannte Argumente: %s"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1802
+#, python-format
+msgid "not allowed with argument %s"
+msgstr "Nicht erlaubt mit Argument %s"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1848
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1862
+#, python-format
+msgid "ignored explicit argument %r"
+msgstr "explizites Argument %r ignoriert"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1952
+msgid "too few arguments"
+msgstr "zu wenig Argumente"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1959
+#, python-format
+msgid "argument %s is required"
+msgstr "Argument %s benötigt"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:1973
+#, python-format
+msgid "one of the arguments %s is required"
+msgstr "Eines der Argumente %s wird benötigt"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2019
+msgid "expected one argument"
+msgstr "Ein Argument wird erwartet"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2020
+msgid "expected at most one argument"
+msgstr "höchstens ein Argument wird erwartet"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2021
+msgid "expected at least one argument"
+msgstr "Mindestens ein Argument erwartet"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2023
+#, python-format
+msgid "expected %s argument(s)"
+msgstr "%s Argument(e) erwartet"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2080
+#, python-format
+msgid "ambiguous option: %s could match %s"
+msgstr "mehrdeutig Option: %s könnte übereinstimmen mit %s"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2142
+#, python-format
+msgid "unexpected option string: %s"
+msgstr "unerwartete Option Zeichenkette : %s"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2243
+#, python-format
+msgid "%r is not callable"
+msgstr "%r konnte nicht aufgerufen werden"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2259
+#, python-format
+msgid "invalid %s value: %r"
+msgstr "Ungültiger %s Wert : %r"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2269
+#, python-format
+msgid "invalid choice: %r (choose from %s)"
+msgstr "ungültige Wahl: %r (wählen Sie zwischen %s)"
+
+#: ../tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/argparse.py:2362
+#, python-format
+msgid "%s: error: %s\n"
+msgstr "%s: Fehler: %s \n"

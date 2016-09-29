@@ -1,0 +1,204 @@
+$cor-telefone = $azul
+$cor-telefone-escura = darken($cor-telefone ,20%)
+$cor-tecla = $preto
+
+.telephone
+	position absolute
+	bottom 0
+	right $position-telephone
+	width 210px	
+	
+.telephone__container
+	cursor pointer
+	height 146px
+	transform-origin 50% 100%
+	transform scale3d(0.8,0.8,1)
+	
+.telephone__base
+	position absolute
+	bottom 0
+	absolute-horizontal-center()
+	
+.telephone__base-container
+	height 130px
+	width 200px
+	
+	&::after
+		border-bottom 130px solid $cor-telefone-escura
+		height 0
+		width 180px
+	
+	&::before
+		border-bottom 130px solid $cor-telefone 
+		width 200px
+		
+	&:hover
+		.telephone__ringer
+			animation ringer-rotate 2.5s ease
+
+.telephone__base-container::after
+.telephone__base-container::before
+	content ''
+	display block
+	position absolute
+	bottom 0
+	border-left 50px solid transparent
+	border-right 50px solid transparent
+	height 0
+	z-index 800
+	absolute-horizontal-center()
+	
+.telephone__ringer
+	position absolute
+	absolute-center()
+	background-color $branco
+	width 85px
+	height 85px
+	border-radius 50%
+	z-index 801
+	
+	&::after
+	&::before
+		content ''
+		display block
+		position absolute
+		border-radius 50%
+		
+	&::after
+		width 35px
+		height 35px
+		absolute-center()
+		background-color $cor-telefone-escura
+	
+	&::before
+		background-color $cor-tecla
+		width 12px
+		height 12px
+		top 25px
+		left 66px
+		box-shadow $cor-tecla -10px -14px,$cor-tecla -26px -21px,$cor-tecla -43px -18px,$cor-tecla -56px -6px,$cor-tecla -61px 11px,$cor-tecla -57px 27px,$cor-tecla -45px 39px,$cor-tecla -28px 43px,$cor-tecla -12px 38px
+		
+.ringer__blocker
+	position absolute
+	width 22px
+	height 18px
+	border-bottom 5px solid $cor-telefone-escura
+	border-radius 50%
+	background-color transparent
+	top 63px
+	left 128px
+	z-index 803
+
+.telephone__hook
+	position absolute
+	bottom 130px
+	absolute-horizontal-center()
+	background-color $cor-telefone
+	width 80px
+	height 15px
+
+	&::before
+		content ''
+		display block
+		position absolute
+		background-color $cor-telefone-escura
+		
+		width 5px
+		height 10px
+		top -10px
+		left 15px
+		box-shadow $cor-telefone-escura 40px 0
+
+
+.telephone__handle
+	position absolute
+	width 210px
+	height 25px
+	background-color $cor-telefone
+	border-top-left-radius 30px
+	border-top-right-radius 30px
+	bottom 150px
+	z-index 804
+	
+	&::before
+	&::after
+		position absolute
+		content ''
+		display block
+		width 175px
+		height 20px
+		border-radius 50%
+		absolute-horizontal-center()
+
+	&::before
+		top -7px
+		background-color #4cc3d9
+		
+	&::after
+		bottom -15px
+		background-color transparent
+		border-top 6px solid $cor-telefone-escura
+		
+	&:hover
+		animation handler-rotate .7s ease
+		animation-iteration-count 2
+
+
+.telephone__cap
+	position absolute
+	z-index 803
+	border-bottom 40px solid $cor-telefone-escura
+	border-left 20px solid transparent
+	border-right 20px solid transparent
+	height 0
+	width 70px
+	border-radius 30px
+	
+	&::before
+		content ''
+		display block
+		position absolute
+		background-color $cor-telefone-escura
+		border-bottom 3px solid $preto
+		top 35px
+		left 0
+		height 10px
+		width 30px
+		border-radius 50%
+	
+.cap--left
+	bottom -40px
+	left -20px
+	
+.cap--right
+	bottom -40px
+	right -20px
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+{
+	// HELP / INFO moved to bottom
+	// Remove "//" to uncomment settings directive
+
+	"default": {
+
+		"host": "ftp.kaisermann.me",
+		"username": "kaisermann",
+		"password": "qk9eD+%E-mqQN55-",
+		"path": "/",
+		"upload_on_save": true,
+		"overwrite_newer_prevention": false,
+		"ignore": "/node_modules/|\\\\node_modules\\\\",
+		"upload_delay": 0,
+		"after_save_watch": [["assets/css/","main.min.css"],["assets/css/","header.min.css"],["assets/js/","main.min.js"]]
+	}
+}

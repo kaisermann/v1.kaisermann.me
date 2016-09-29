@@ -1,0 +1,15 @@
+{  
+	"hidden":true,
+	"name":"Indiescovery",
+	"id":"indiescovery",
+	"category": "cat_pessoal_blogs",
+	"desc":
+	{
+		"br": ["O tédio decorrente de férias da faculdade é um ótimo amigo do processo criativo. Ocorreu-me a idéia de um tumblr musical com o intuito de mostrar novas bandas desconhecidas pela grande massa. Além da simplicidade e objetividade, ao mostrar um videoclipe por vez, o tumblr funciona como uma playlist em loop. Ao terminar um video, o próximo entra em foco e é iniciado, criando uma experiência igual à de uma playlist de serviços de streaming.",
+			"E assim nasceu o Indiescovery."],
+		"en": ["Boredom is a great friend of the creative process. It occurred to me the idea of a musical tumblr in order to show people some new unknown bands. In addition to the simplicity of showing a video clip at a time, the tumblr works as a playlist. When a music clip ends, the next comes into focus and starts playing.","And so was born the Indiescovery."]
+	},
+	"technologies": "HTML5, CSS",
+	"area":"Layout & Frontend",
+	"url":"http://indiescovery.kaisermann.me"
+}

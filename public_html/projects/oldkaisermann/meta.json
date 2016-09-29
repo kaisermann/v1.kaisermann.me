@@ -1,0 +1,12 @@
+{  
+	"name":"Kaisermann Antigo",
+	"id":"oldkaisermann",
+	"category": "cat_pessoal",
+	"desc":
+	{
+		"br": ["Estava precisando de um local para publicar meus projetos. Com pouco tempo e uma pitada de criatividade, criei o meu site de portfólio de uma maneira simples. A ideia era ter abrir os projetos dentro do próprio site de um jeito fluido e elegante, demonstrando também as funções responsivas de cada layout."],
+		"en": ["I needed a place to publish my projects. With little time and a pinch of creativity, I created my portfolio in a simple way. The idea was visualize the projects within the site itself in a fluid and elegant way, while also demonstrating the responsive functions of each layout."]
+	},
+	"area":"Layout & Frontend & Backend",
+	"url":""
+}

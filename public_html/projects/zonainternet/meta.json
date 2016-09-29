@@ -1,0 +1,12 @@
+{  
+	"name":"Zona Internet",
+	"id":"zonainternet",
+	"category": "cat_zonainternet",
+	"desc":
+	{
+		"br": ["Desenvolvido com WordPress, com uso de um layout moderno, simples e objetivo, o novo site da Zona Internet ganhou novos ares, focando, principalmente, na facilidade de cadastramento de conteúdo como portfólio, posts, notícias, etc."],
+		"en": ["Powered by WordPress, with a modern, simple and objective layout, Zona Internet website gained a breath of fresh air with its new website."]
+	},
+	"area":"Frontend & Backend",
+	"url":"http://zonainternet.com"
+}

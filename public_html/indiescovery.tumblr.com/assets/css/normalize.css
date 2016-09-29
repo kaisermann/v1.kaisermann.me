@@ -1,0 +1,307 @@
+/* line 1 : /Users/kaisermann/NetBeansProjects/indiescoverylive/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 2 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 7 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+body {
+  margin: 0;
+}
+
+/* line 10 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 13 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 17 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+/* line 18 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 22 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* line 25 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+a {
+  background: transparent;
+}
+
+/* line 28 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 31 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 34 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 37 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+dfn {
+  font-style: italic;
+}
+
+/* line 40 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 44 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 48 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+small {
+  font-size: 80%;
+}
+
+/* line 51 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 57 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+sup {
+  top: -0.5em;
+}
+
+/* line 60 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+sub {
+  bottom: -0.25em;
+}
+
+/* line 63 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+img {
+  border: 0;
+}
+
+/* line 66 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+/* line 67 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 70 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+figure {
+  margin: 1em 40px;
+}
+
+/* line 73 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 78 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+pre {
+  overflow: auto;
+}
+
+/* line 81 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 85 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 90 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+button {
+  overflow: visible;
+}
+
+/* line 93 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+button,
+select {
+  text-transform: none;
+}
+
+/* line 96 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 100 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 103 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 107 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+input {
+  line-height: normal;
+}
+
+/* line 110 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 114 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 117 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 123 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 126 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 131 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 135 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+textarea {
+  overflow: auto;
+}
+
+/* line 138 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* line 141 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 145 : /Users/kaisermann/NetBeansProjects/indiescoverylive/assets/css/styl/normalize.styl */
+
+td,
+th {
+  padding: 0;
+}

@@ -1,0 +1,170 @@
+@media(max-width:991px)		
+	.workspace 
+		width 100%
+		padding 30px 5px 50px
+		height auto
+		
+	.workspace__container
+		display block
+		
+	.workspace__above-table
+		height auto
+		margin 0
+		
+	.bookshelf
+	.portrait
+	.laptop
+	.telephone
+	.flags
+		position relative
+		margin 0 auto
+		left auto
+		right auto
+		top auto
+		bottom auto
+		margin-top 120px
+		
+	.flags
+		margin-top 20px
+		
+	.telephone
+		margin-top 100px
+		
+	.portrait
+		margin-top 140px
+		.object__tooltip--active.tooltip--bottom
+		.tooltip--bottom
+			bottom 125%
+		
+	.lamp
+	.speaker
+	.table
+	.clock
+		display none
+	
+	.object__tooltip--active.tooltip--bottom	
+	.tooltip--bottom
+		top auto
+		bottom 110%
+	
+	.title--padded-mobile
+		margin-left 20px
+			
+	.shelf__base--mobile
+		display block
+		
+	.loading__spinner
+		position fixed
+		
+	.laptop__container
+		max-width 90%
+		margin 0 auto
+		
+	.inception-spinning-top
+		display none
+		
+@media(max-width:480px)
+	.workspace 
+		padding 30px 10px 50px
+		
+	.bookshelf
+		width 100%
+		
+	.laptop__monitor
+		border-radius 20px
+		max-width 100%
+		padding-bottom 24px
+		
+		&::before
+			content ''
+			display block
+			position absolute
+			bottom 5px
+			background-color $cinza
+			width 13px
+			height 13px
+			border-radius 50%
+			absolute-horizontal-center()
+			border 1px solid lighten($cinza, 40%)
+			
+	.window__top
+		display none
+			
+	.portrait:hover .portrait__container
+		transform rotateZ(-25deg)
+		
+	.monitor__mic		
+	.laptop__base
+		display none
+
+	.content__wrapper
+		background-position 0 21px
+		
+@media(min-width:481px)
+		
+	.content__container
+		margin-bottom -22px
+
+@media(min-width:992px) and (max-width:1200px)
+	.workspace
+		width 991px
+		
+	.lamp
+	.speaker
+	.bookshelf
+	.portrait
+		transform-origin 0 100%
+		
+	.lamp
+	.clock
+	.bookshelf
+	.portrait
+		transform scale(0.9)
+		
+	.speaker
+		transform scale(0.8)
+		
+	.lamp
+		left 25px
+		
+	.speaker--left
+		left 120px
+		
+	.speaker--right
+		right 190px
+		
+	.telephone
+		right 0
+		
+	.telephone__container
+		transform scale(0.7)
+		height 132px
+		
+	.laptop
+		laptop-size(482)
+		left 180px
+		right auto
+		margin 0 0 -6px
+		
+	.laptop__monitor
+		padding-bottom 16px
+		
+	.laptop__base
+		top -10px
+		height 6px
+		
+		&::before
+			height 3px
+			
+		&::after
+			height 4px
+			bottom -3px
+			
+	.table__top
+		height 25px
+		
+	.table__leg
+		width 50px
+		
+	.inception-frame
+		height 805px

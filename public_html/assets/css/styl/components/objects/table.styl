@@ -1,0 +1,41 @@
+.table__top
+	height 30px
+	max-width $table-width
+	margin-left auto
+	margin-right auto
+	border-radius 5px
+	background-color $marrom
+	
+.table__bottom
+	width $table-base-width
+	max-width ($table-width*0.7)
+	margin 0 auto
+	
+	&::after
+		content ''
+		display block
+		clear both
+	
+.table__base
+	border-radius 3px
+	margin-top 3px
+	height 20px
+	background-color $cinza
+	box-shadow darken($cinza,30%) 0 -3px 0
+	position relative
+	
+.table__leg
+	top 100%
+	width $table-leg-width
+	height 60px
+	background-color $cinza
+	margin-top 5px
+	box-shadow darken($cinza,20%) 0 -5px 0
+	
+.leg--left
+	margin-left 10px
+	float left
+	
+.leg--right
+	margin-right 10px
+	float right

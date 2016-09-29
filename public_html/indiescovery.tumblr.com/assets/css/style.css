@@ -1,0 +1,1388 @@
+/* line 1 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+/* line 2 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 7 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+body {
+  margin: 0;
+}
+
+/* line 10 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 13 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 17 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+/* line 18 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 22 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* line 25 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+a {
+  background: transparent;
+}
+
+/* line 28 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 31 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 34 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 37 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+dfn {
+  font-style: italic;
+}
+
+/* line 40 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+h1,
+h3 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 44 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 48 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+small {
+  font-size: 80%;
+}
+
+/* line 51 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 57 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+sup {
+  top: -0.5em;
+}
+
+/* line 60 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+sub {
+  bottom: -0.25em;
+}
+
+/* line 63 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+img {
+  border: 0;
+}
+
+/* line 66 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+/* line 67 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 70 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+figure {
+  margin: 1em 40px;
+}
+
+/* line 73 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 78 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+pre {
+  overflow: auto;
+}
+
+/* line 81 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 85 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 90 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+button {
+  overflow: visible;
+}
+
+/* line 93 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+button,
+select {
+  text-transform: none;
+}
+
+/* line 96 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 100 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 103 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 107 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+input {
+  line-height: normal;
+}
+
+/* line 110 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 114 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 117 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 123 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 126 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 131 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 135 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+textarea {
+  overflow: auto;
+}
+
+/* line 138 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* line 141 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 145 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/normalize.styl */
+
+td,
+th {
+  padding: 0;
+}
+
+/* line 1 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url("http://kaisermann.me/indiescovery.tumblr.com/assets/font/amatic-normal.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  src: url("http://kaisermann.me/indiescovery.tumblr.com/assets/font/amatic-bold.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("http://kaisermann.me/indiescovery.tumblr.com/assets/font/icomoon.eot");
+  src: url("http://kaisermann.me/indiescovery.tumblr.com/assets/font/icomoon.eot") format('embedded-opentype'), url("http://kaisermann.me/indiescovery.tumblr.com/assets/font/icomoon.woff") format('woff'), url("http://kaisermann.me/indiescovery.tumblr.com/assets/font/icomoon.ttf") format('truetype'), url("http://kaisermann.me/indiescovery.tumblr.com/assets/font/icomoon.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 20 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+i {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 20px;
+  -webkme-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 32 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+/* line 33 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+i.icon-link:before {
+  content: "\e600";
+}
+
+/* line 36 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+/* line 37 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+i.icon-facebook:before {
+  content: "\e601";
+}
+
+/* line 40 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+/* line 41 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+i.icon-twmeter:before {
+  content: "\e602";
+}
+
+/* line 4 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+*:focus {
+  outline: none;
+}
+
+/* line 10 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+figure {
+  margin: 0;
+}
+
+/* line 13 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.pace .pace-progress {
+  background: #3d3d3d;
+  position: fixed;
+  z-index: 10001;
+  top: 0;
+  left: 0;
+  height: 4px;
+  -webkit-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+/* line 22 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.pace-inactive {
+  display: none;
+}
+
+/* line 25 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+body {
+  color: #3d3d3d;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+/* line 30 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+a {
+  color: #3d3d3d;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 35 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+a:hover {
+  color: #5c5c5c;
+}
+
+/* line 38 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+blockquote,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 42 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+figcaption {
+  padding: 20px 15px;
+}
+
+/* line 45 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.panel {
+  padding: 20px 0;
+}
+
+/* line 48 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+h1,
+h3 {
+  font-family: 'Amatic SC';
+  font-weight: normal;
+  font-size: 46px;
+  margin: 0;
+  line-height: 100%;
+}
+
+/* line 55 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+h1 a:hover,
+h3 a:hover {
+  border-bottom: 2px solid #3d3d3d;
+  color: #3d3d3d;
+}
+
+/* line 59 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+/* line 64 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+h3 a {
+  font-weight: bold;
+}
+
+/* line 67 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/* line 68 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.instructions span {
+  font-family: 'Amatic SC';
+  font-size: 28px;
+  font-weight: normal;
+  color: #bbb;
+  cursor: default;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 75 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.instructions span:hover {
+  color: #555;
+}
+
+/* line 78 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.table-wrapper {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* line 83 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- Top --*/
+
+/* line 84 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header-wrapper {
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+/* line 89 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.instructions,
+.header-content,
+.arrows-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 20px 20px 20px;
+}
+
+/* line 94 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- #Header --*/
+
+/* line 95 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header {
+  padding-top: 30px;
+}
+
+/* line 97 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header > div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 100 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  right: 0;
+  width: 211px;
+  margin-top: 16px;
+  background-color: #fff;
+  z-index: 9999;
+  text-align: left;
+}
+
+/* line 112 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 116 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu.active::after,
+#header .pop-menu.active::before {
+  width: 100%;
+}
+
+/* line 119 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu::before,
+#header .pop-menu::after {
+  content: '';
+  display: block;
+  width: 0px;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #000;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 128 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu ul {
+  margin: 0;
+  padding: 10px 15px;
+}
+
+/* line 132 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu ul li {
+  padding: 10px 0;
+  list-style: none;
+}
+
+/* line 136 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu ul li + li {
+  border-top: 1px dashed #000;
+}
+
+/* line 139 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu button {
+  display: none;
+}
+
+/* line 142 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header .pop-menu input {
+  width: 100%;
+  border: none;
+}
+
+/* line 146 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+#header input,
+.pop-menu ul,
+.meta {
+  font-family: 'Amatic SC';
+  letter-spacing: 4px;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+/* line 152 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.header-content {
+  text-align: right;
+}
+
+/* line 155 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- Controls --*/
+
+/* line 156 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.arrows-wrapper {
+  font-family: 'Amatic SC';
+  font-size: 46px;
+}
+
+/* line 159 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.arrows-wrapper .table-wrapper > * {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 36px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+/* line 167 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.arrows-wrapper.mobile {
+  display: none;
+}
+
+/* line 170 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.arrows-wrapper.desktop {
+  display: table-cell;
+}
+
+/* line 173 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.arrows-wrapper a,
+.arrows-wrapper span {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 176 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.arrows-wrapper a:hover {
+  color: #3d3d3d;
+}
+
+/* line 180 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- Fullscreen button --*/
+
+/* line 181 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/* line 182 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.fullscreen-btn span {
+  display: block;
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: 32px 64px;
+  background-image: url("http://kaisermann.me/indiescovery.tumblr.com/assets/img/fullscreenicon.png");
+  opacity: 0.4;
+}
+
+/* line 192 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.fullscreen-btn span:hover {
+  opacity: 1;
+}
+
+/* line 195 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.fullscreen-btn span.off {
+  background-position: 0 0;
+}
+
+/* line 198 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.fullscreen-btn span.on {
+  background-position: 0 -33px;
+}
+
+/* line 201 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*--  Header menu --*/
+
+/* line 202 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.header-menu {
+  display: inline-block;
+}
+
+/* line 205 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.nav-menu,
+.header-title {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 209 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.nav-menu {
+  position: relative;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+/* line 214 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- #Hamburger menu icon --*/
+
+/* line 215 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+}
+
+/* line 219 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector .bar-icon-wrapper {
+  -webkit-transform: translate3d(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* line 224 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector .bar-icon {
+  height: 3px;
+  width: 20px;
+  background: #3d3d3d;
+  display: block;
+  opacity: 1;
+  margin-top: 4px;
+  -webkit-transition: -webkit-transform 0.15s linear;
+  -o-transition: -o-transform 0.15s linear;
+  transition: -ms-transform 0.15s linear;
+  transition: transform 0.15s linear;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+/* line 234 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector .bar-icon:nth-child(1) {
+  margin-top: 0;
+}
+
+/* line 237 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector .bar-icon:nth-child(2) {
+  -webkit-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+
+/* line 240 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector.active .bar-icon:nth-child(1) {
+  -webkit-transform: rotate(45deg) translate3d(5px, 5px, 0);
+  -ms-transform: rotate(45deg) translate3d(5px, 5px, 0);
+  -o-transform: rotate(45deg) translate3d(5px, 5px, 0);
+  transform: rotate(45deg) translate3d(5px, 5px, 0);
+}
+
+/* line 243 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector.active .bar-icon:nth-child(2) {
+  opacity: 0;
+}
+
+/* line 246 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.selector.active .bar-icon:nth-child(3) {
+  -webkit-transform: rotate(-45deg) translate3d(5px, -5px, 0);
+  -ms-transform: rotate(-45deg) translate3d(5px, -5px, 0);
+  -o-transform: rotate(-45deg) translate3d(5px, -5px, 0);
+  transform: rotate(-45deg) translate3d(5px, -5px, 0);
+}
+
+/* line 249 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- Gallery --*/
+
+/* line 250 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.slide-gallery {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* line 254 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.slide-mask {
+  overflow: hidden;
+}
+
+/* line 257 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.slide-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* line 262 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  float: left;
+  display: inline-block;
+  -webkit-transition: opacity 0.8s ease-in-out, left 0.3s ease-in-out;
+  -o-transition: opacity 0.8s ease-in-out, left 0.3s ease-in-out;
+  transition: opacity 0.8s ease-in-out, left 0.3s ease-in-out;
+  width: 100%;
+}
+
+/* line 272 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item:not(.post-active) {
+  opacity: 0.3;
+}
+
+/* line 275 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.pre-loading {
+  opacity: 1;
+  position: static;
+}
+
+/* line 279 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.video figcaption,
+.gallery-item .panel {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 284 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.post-active .panel,
+.gallery-item.post-active.video figcaption {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 288 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item .video-wrapper {
+  max-height: 423px;
+  background-color: #000;
+  position: relative;
+  padding: 50% 0 0 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 296 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 303 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/* line 304 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.fullscreen figcaption,
+.gallery-item.fullscreen .panel {
+  opacity: 0.15;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  width: 100%;
+}
+
+/* line 309 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.fullscreen figcaption:hover,
+.gallery-item.fullscreen .panel:hover {
+  opacity: 0.8;
+}
+
+/* line 312 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/* line 313 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.fullscreen .video figcaption {
+  position: relative;
+  top: 0;
+  background-color: #fff;
+}
+
+/* line 317 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.fullscreen .video .panel {
+  background-color: #fff;
+  position: relative;
+  z-index: 9999;
+  padding: 20px;
+}
+
+/* line 323 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.gallery-item.fullscreen .video .video-wrapper {
+  max-height: none;
+  padding: 0;
+  height: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+/* line 333 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.meta {
+  text-align: right;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+/* line 338 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/* line 339 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.meta ul,
+.post-controls ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* line 344 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.meta li,
+.post-controls li {
+  list-style: none;
+  float: left;
+  line-height: 10px;
+}
+
+/* line 348 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.meta li + li,
+.post-controls li + li {
+  margin-left: 15px;
+}
+
+/* line 351 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.share-menu,
+.tumblr-controls {
+  display: table-cell;
+  vertical-align: middle;
+  width: 80%;
+}
+
+/* line 356 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.share-menu li,
+.tumblr-controls li {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.5;
+}
+
+/* line 360 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.share-menu li:hover,
+.tumblr-controls li:hover {
+  opacity: 1;
+}
+
+/* line 363 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.tumblr-controls {
+  text-align: right;
+  width: 20%;
+}
+
+/* line 368 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- Article wrapper --*/
+
+/* line 369 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+article {
+  width: 800px;
+  margin: 0 auto;
+  overflow-y: auto;
+  padding: 0 20px;
+}
+
+/* line 375 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+article.loading-slider {
+  background-color: transparent;
+  height: 458px;
+}
+
+/* line 379 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+article.loading-slider div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 125px;
+  height: 48px;
+  display: inline-block;
+}
+
+/* line 390 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+article.loading-slider span {
+  font-family: 'Amatic SC';
+  font-size: 38px;
+  letter-spacing: 7px;
+  -webkit-animation: pulse 1s infinite;
+  -o-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+}
+
+/* line 396 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.post-wrapper {
+  padding: 0;
+}
+
+/* line 400 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/*-- Text --*/
+
+/* line 401 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.img-responsive,
+.body-text img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 407 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+/* Media */
+
+/* line 408 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+@media (max-width:991px) {
+  /* line 409 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  #header .instructions {
+    display: none;
+  }
+
+  /* line 412 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  /* line 413 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  .arrows-wrapper.mobile {
+    display: block;
+  }
+
+  /* line 415 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  .arrows-wrapper.desktop {
+    display: none;
+  }
+
+  /* line 418 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  .header-content,
+  .arrows-wrapper {
+    display: block;
+  }
+
+  /* line 421 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  .arrows-wrapper {
+    padding: 0 0 20px 0;
+  }
+
+  /* line 424 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  .meta {
+    display: none;
+  }
+}
+
+/* line 427 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+.search-header {
+  max-width: 584px;
+  margin: 0 auto;
+}
+
+/* line 431 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+h2 {
+  text-align: center;
+  font-family: Amatic SC;
+  font-size: 28px;
+  color: #3d3d3d;
+}
+
+/* line 438 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+@media (max-width:700px) {
+  /* line 439 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  article {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+/* line 444 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+@media (max-width:520px) {
+  /* line 445 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/style.styl */
+
+  article {
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
+/* line 449 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+/* line 449 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 0.4;
+  }
+
+  30% {
+    opacity: 0.6;
+  }
+
+  40% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.8;
+  }
+
+  80% {
+    opacity: 0.6;
+  }
+
+  90% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+/* line 449 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+@-o-keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 0.4;
+  }
+
+  30% {
+    opacity: 0.6;
+  }
+
+  40% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.8;
+  }
+
+  80% {
+    opacity: 0.6;
+  }
+
+  90% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+/* line 449 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+@-ms-keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 0.4;
+  }
+
+  30% {
+    opacity: 0.6;
+  }
+
+  40% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.8;
+  }
+
+  80% {
+    opacity: 0.6;
+  }
+
+  90% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+/* line 449 : /Users/kaisermann/Dropbox/Web/Projetos/Pessoais/Main/indiescovery.tumblr.com/assets/css/styl/fonts.styl */
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 0.4;
+  }
+
+  30% {
+    opacity: 0.6;
+  }
+
+  40% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.8;
+  }
+
+  80% {
+    opacity: 0.6;
+  }
+
+  90% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}

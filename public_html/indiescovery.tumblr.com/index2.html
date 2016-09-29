@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head>
+        {MobileAppHeaders}
+        <meta charset="utf-8" />
+        <title>{Title}{block:SearchPage}({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} — {PostSummary}{/block:PostSummary}{/block:PermalinkPage}</title>
+        {block:Description}
+        <meta name="description" content="{MetaDescription}"/>
+        {/block:Description}
+
+        {block:Hidden}
+        <meta name="text:Google analytics ID" content=""/>
+		<meta name="text:Background Image" content=""/>
+        {/block:Hidden}
+        <meta property="og:title" content="{Title}"/>
+        <meta property="og:image" content="http://static.tumblr.com/z2f2xsa/nP4n7zr1z/0002401473_10.jpg"/>
+        <meta property="og:site_name" content="{Title}"/>  
+
+        <meta property="og:description" content="listen"/>
+        {block:PermalinkPage}
+        {block:PostSummary}
+        <meta property="og:description" content="{PostSummary}"/>
+        {/block:PostSummary}
+        {/block:PermalinkPage}
+        <meta property="og:url" content="{BlogURL}"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <link rel="shortcut icon" href="http://static.tumblr.com/z2f2xsa/rRdn7rgwi/fav.gif"/>
+        <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}"/>
+        <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+        <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+        {block:IfGoogleAnalyticsID}
+        <script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+			ga('create', '{text:Google Analytics ID}', 'tumblr.com');
+			ga('send', 'pageview');
+        </script>
+        {/block:IfGoogleAnalyticsID}
+
+        <script>			
+			var bootloader = bootloader || function() {
+				this.head = document.getElementsByTagName('head')[0]; 
+
+				this.loadCss = function(src) {
+					var l = document.createElement('link'); 
+					l.rel = 'stylesheet';
+					l.href = src;
+					this.head.appendChild(l, this.head);
+				}
+
+				this.loadScript = function(src, callback) {
+
+					var script = document.createElement('script');  
+						script.setAttribute('src', src);  
+						script.setAttribute('type','text/javascript');  
+
+					if (callback) {
+					   if (script.onreadystatechange === undefined) {
+							script.onload = callback;    
+						} else {
+							script.onreadystatechange = function() {
+								if (this.readyState == 'complete' || this.readyState == 'loaded') {  
+								   callback();   
+								}  
+							}
+						}  
+					}
+
+					this.head.appendChild(script);   
+				}
+			} 
+			var cur_page = {CurrentPage};
+			var total_pages = {TotalPages};
+			var blogurl = "{BlogURL}";
+			
+			var boot = new bootloader();
+			boot.loadCss('http://kaisermann.me/indiescovery.tumblr.com/assets/css/main.min.css');
+		</script>
+
+        <style>
+			{block:IfBackgroundImage}
+			body { background-image: url('{text:Background Image}');}
+			{/block:IfBackgroundImage}
+
+			{CustomCSS}
+		</style>
+    </head>
+    <body data-urlencoded-name="{URLEncodedName}" class="{select:Layout}{block:IndexPage} index-page{/block:IndexPage}{block:PermalinkPage} permalink{/block:PermalinkPage}{block:SearchPage} search-page{block:NoSearchResults} no-results{/block:NoSearchResults}{/block:SearchPage}{block:HideHeaderImage} no-header-image{/block:HideHeaderImage}{block:NoStretchHeaderImage} contain-header-image{/block:NoStretchHeaderImage}">
+
+        <section id="page">
+            <div class="header-wrapper">
+                <header id="header" class="table-wrapper">
+                    <div class="instructions">
+                        <span>Scroll down or use the arrow keys</span>
+                    </div>
+                    <div class="arrows-wrapper desktop">
+                        <div class="table-wrapper">
+                            <a class="ins-prev"><</a>
+                            <a class="fullscreen-btn"><span class="off"></span></a>
+                            <a class="ins-next">></a>
+                        </div>
+                    </div>
+                    <div class="header-content">
+                        <div class="header-menu">
+                            <div class="header-title">
+                                <h1><a href="/">{Title}</a></h1>
+                            </div>
+                            <nav class="nav-menu pop">
+                                <a class="selector">
+                                    <div class="bar-icon-wrapper">
+                                        <span class="bar-icon"></span>
+                                        <span class="bar-icon"></span>
+                                        <span class="bar-icon"></span>
+                                    </div>
+                                </a>
+                                <div class="pop-menu">
+                                    <ul>
+                                        <li>
+                                            <form action="/search" method="get" id="search">
+                                                <input type="text" name="q" id="q" placeholder="{lang:Search}" value="{SearchQuery}">
+                                                <button type="submit"></button>
+                                            </form>
+                                        </li>
+                                        <li>
+                                            <a href="/random" class="random">{lang:Random}</a>
+                                        </li>
+                                        <li>
+                                            <a href="/archive" class="archive">{lang:Archive}</a>
+                                        </li>
+                                        {block:AskEnabled}
+                                        <li>
+                                            <a href="/ask" class="ask">{AskLabel}</a>
+                                        </li>
+                                        {/block:AskEnabled}
+                                        {block:HasPages}
+                                        {block:Pages}
+                                        <li>
+                                            <a href="{URL}" class="page">{Label}</a>
+                                        </li>
+                                        {/block:Pages}
+                                        {/block:HasPages}
+                                        {block:SubmissionsEnabled}
+                                        <li>
+                                            <a href="/submit" class="submit">{SubmitLabel} </a>
+                                        </li>
+                                        {/block:SubmissionsEnabled}
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+					<div class="arrows-wrapper mobile">
+                        <div class="table-wrapper">
+                            <a class="ins-prev"><</a>
+                            <a class="ins-next">></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            {block:SearchPage}
+            <div class="search-header content">
+                <h2>
+                    {lang:SearchResultCount results for SearchQuery}
+                    {block:NoSearchResults}{lang:Sorry no search results found}{/block:NoSearchResults}
+                </h2>
+            </div>
+            {/block:SearchPage}
+            <section id="posts">
+                <div class="gallery-item pre-loading">
+                    <article class="loading-slider">
+                        <div><span>loading</span></div>
+                    </article>
+                </div>
+                <div class="slide-gallery">
+                    <div class="slide-mask">
+                        <div class="slide-container">
+                            {block:Posts}
+                            <div class="gallery-item">
+                                <article class="{block:Text}text {/block:Text}{block:Photoset}photoset {/block:Photoset}{block:Photo}photo {/block:Photo}{block:RebloggedFrom}reblogged {/block:RebloggedFrom}{block:Quote}quote {/block:Quote}{block:Link}link {/block:Link}{block:Chat}chat {/block:Chat}{block:Audio}audio {/block:Audio}{block:Video}video {/block:Video}{block:Answer}answer {/block:Answer}{block:Date}not-page post-{PostID}{/block:Date} {block:PermalinkPage} active exposed{/block:PermalinkPage}" {block:Date}data-post-id="post_{PostID}"{/block:Date}>
+                                         <div class="post-wrapper clearfix">
+                                        <section class="post">
+                                            {block:Text}
+                                            {block:Title}<h2><a href="{Permalink}">{Title}</a></h2>{/block:Title}
+                                            {block:Body}
+                                            <div class="body-text">
+                                                {Body}
+                                            </div>
+                                            {/block:Body}
+                                            {/block:Text}
+
+                                            {block:Photo}
+                                            <figure class="{block:HighRes}high-res{/block:HighRes}{block:Caption} with-caption{/block:Caption}" data-photo-width="{PhotoWidth-HighRes}">
+                                                <div class="photo-wrapper">
+                                                    <div class="photo-wrapper-inner">
+                                                        {LinkOpenTag}<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}">{LinkCloseTag}
+                                                    </div>
+                                                </div>
+                                                {block:Caption}
+                                                <figcaption class="caption">
+                                                    {Caption}
+                                                </figcaption>
+                                                {/block:Caption}
+                                            </figure>
+                                            {/block:Photo}
+
+                                            {block:Audio}
+                                            <div class="audio_container">
+                                                {block:AudioEmbed}
+                                                {AudioEmbed color="white"}
+                                                {/block:AudioEmbed}
+                                            </div>
+                                            {block:Caption}
+                                            <div class="caption">
+                                                {Caption}
+                                            </div>
+                                            {/block:Caption}
+                                            {/block:Audio}
+
+                                            {block:Video}
+                                            <figure {block:Caption}class="with-caption"{/block:Caption}>
+                                                <div class="video-box">
+                                                    <div class="video-wrapper">
+                                                        {Video-700}
+                                                    </div>
+                                                </div>
+                                                {block:Caption}
+                                                <figcaption class="caption">
+                                                    {Caption}
+                                                </figcaption>
+                                                {/block:Caption}
+                                            </figure>
+                                            {/block:Video}
+
+                                            {block:Answer}
+                                            <div class="note-item note-item-asker">
+                                                <div class="text">
+                                                    <p class="asker"><strong>{Asker}</strong> asked:</p>
+                                                    <div class="asker-question">
+                                                        {Question}
+                                                    </div>
+                                                </div>
+                                                <div class="avatar">
+                                                    <img class="asker-avatar" src="{AskerPortraitURL-96}" alt="">
+                                                </div>
+                                            </div>
+
+                                            {block:Answerer}
+                                            <div class="note-item note-item-answerer">
+                                                <div class="text">
+                                                    <p class="answerer"><strong>{Answerer}</strong> answered:</p>
+                                                    <div class="answerer-answer">
+                                                        {Answer}
+                                                    </div>
+                                                </div>
+                                                <div class="avatar">
+                                                    <img class="answerer-avatar" src="{AnswererPortraitURL-96}" alt="">
+                                                </div>
+                                            </div>
+                                            {/block:Answerer}
+
+                                            <div class="replies">
+                                                {Replies}
+                                            </div>
+                                            {/block:Answer}
+                                        </section>
+
+                                        {block:Date}
+                                        <section class="panel">
+                                            <footer class="post-footer">
+                                                <section class="meta">
+                                                    <a href="{Permalink}" title="{TimeAgo}">{ShortMonth} {DayOfMonth}{DayOfMonthSuffix}, {Year}</a>
+                                                </section>
+
+                                                <section class="post-controls table-wrapper">
+                                                    <div class="share-menu" id="share_{PostID}">
+                                                        <ul>
+                                                            <li><a href="http://facebook.com/sharer.php?u={URLEncodedPermalink}&amp;t={URLEncodedTitle}" class="share-item facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                                                            <li><a href="https://twitter.com/intent/tweet?text={URLEncodedTweetSummary}" class="share-item twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                                                            <li><a href="{Permalink}" class="share-item permalink"><i class="icon-link"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="tumblr-controls">
+                                                        <ul>
+                                                            <li class="reblog-control">{ReblogButton size="21" color="black"}</li>
+                                                            <li class="like-control">{LikeButton size="20" color="black"}</li>
+                                                        </ul>
+                                                    </div>
+                                                </section>
+                                            </footer>
+                                        </section>
+                                        {/block:Date}
+                                    </div>
+                                </article>
+                            </div>
+                            {/block:Posts}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <script>
+
+			boot.loadScript('http://kaisermann.me/indiescovery.tumblr.com/assets/js/pace/pace.min.js');
+			boot.loadScript('http://kaisermann.me/indiescovery.tumblr.com/assets/js/jquery/jquery.min.js', function () {
+				boot.loadScript('http://kaisermann.me/indiescovery.tumblr.com/assets/js/main.min.js', function()
+				{
+					initializejQuery();
+				});
+			});
+        </script>
+    </body>
+</html>

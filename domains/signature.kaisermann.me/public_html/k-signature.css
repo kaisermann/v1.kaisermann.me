@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Anders';
+  src: url(k-path/Anders_gdi.eot);
+  src: url(k-path/Anders_gdi.eot?#iefix) format('embedded-opentype'),
+  url(k-path/Anders_gdi.woff) format('woff'), 
+  url(k-path/Anders_gdi.ttf) format('truetype'), 
+  url(k-path/Anders_gdi.svg#Anders-Regular) format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+.k-sig ,.k-sig span { padding: 0; margin: 0; box-sizing: border-box; display: inline-block; }
+.k-sig {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  color: $tc$;
+  background-color: $bc$;
+  font-family: Anders;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  line-height: 1;
+  opacity: .6;
+  letter-spacing: 0;
+  -webkit-text-stroke: 0.2px;
+}
+.k-sig:hover { opacity: 1; color: $tc$; }
+
+.k-sig.k-bottom,
+.k-sig.k-fixed {
+  position: absolute;
+  bottom: 0;
+  $position$: 0;
+  z-index: 999999;
+}
+.k-sig.k-fixed { position: fixed; }
+
+.k-sig .k-sig-brand { 
+  overflow: hidden; 
+  width: 25px;
+  height: 25px;
+  position: relative; 
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.k-sig:hover .k-sig-brand,
+.k-sig.k-sig-visible .k-sig-brand{ width: 100px; }
+
+.k-sig .k-sig-main,
+.k-sig .k-sig-rest {
+  position: absolute;
+  bottom:7px;
+  overflow: hidden;
+}
+.k-sig .k-sig-main {
+  font-size: 14px;
+  height: 15px;
+  left: 8px;
+}
+.k-sig .k-sig-rest {
+  -webkit-transition: opacity .3s ease, visibility .3s ease;
+  transition: opacity .3s ease, visibility .3s ease;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 10px;
+  left: 19px;
+  letter-spacing: 1px;
+  height: 11px;
+}
+
+.k-sig:hover .k-sig-rest,
+.k-sig.k-sig-visible .k-sig-rest {
+  opacity: 1;
+  visibility: visible;
+}
+
+.k-sig .k-sig-by
+{
+  position: absolute;
+  background-color: $bc$;
+  font-size: 8px;
+  height: 14px;
+  padding:3px 4px;
+  top:-14px;
+  left:0;
+  z-index: 9999991;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+.k-sig:hover .k-sig-by,
+.k-sig.k-sig-visible .k-sig-by
+{
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transition: -webkit-transform .3s .3s ease;
+  transition: transform .3s .3s ease;
+}

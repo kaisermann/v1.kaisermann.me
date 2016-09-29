@@ -1,0 +1,145 @@
+.contact-form__container
+	padding 12px 20px 52px
+	font-family Dudu Calligraphy
+	max-width 992px
+	margin 0 auto
+	
+	h2
+		margin-bottom 40px
+	
+.form__component
+	display flex
+	flex-direction row
+	width 100%
+	position relative
+	
+	+ .form__component
+		margin-top 42px
+	
+	input
+	select
+	textarea
+		height 40px
+		width 100%
+		vertical-align top
+		border none
+		border-bottom 2px dashed $preto
+		border-radius 0
+		padding-left 10px
+		background-color transparent
+		font-family Dudu Calligraphy
+		font-size 22px
+		-webkit-appearance none
+		transition background-color .3s ease-in-out
+		letter-spacing 4px
+		
+		&:-webkit-autofill
+			background-color transparent !important
+			
+		&:hover
+			background-color rgba(lighten($azul,50%), .2)
+		
+	textarea
+		min-height 200px
+		line-height 40px
+		resize none
+		letter-spacing 2px
+		
+	label
+		color $roxo
+		display inline-block
+		vertical-align top
+		text-align right
+		padding 10px 20px 0 0
+		width 130px
+		font-size 24px
+	
+.form--error			
+	input
+	select
+	textarea
+		background-color rgba($vermelho,.1)
+		animation smallrotate .3s ease-in-out
+		
+	&::before
+		content attr(data-error)
+		display block
+		position absolute
+		top -20px
+		left 117px
+		
+.form__component--submit
+	display block
+		
+	input
+		display block
+		width auto
+		margin auto 0 auto auto
+		border none
+		border-radius 10px
+		padding 8px 20px 5px
+		cursor pointer
+		color $branco
+		background-color $roxo
+		height auto
+		
+		&:hover
+			background-color $azul
+			
+.form__feedback
+	padding 20px
+	margin-top 20px
+	font-size 24px
+
+.feedback--ok
+	background-color rgba($verde, .2)
+
+.feedback--error
+	background-color rgba($vermelho, .2)
+	
+.form--sending
+.form--sending:hover
+	background linear-gradient(to right, rgba(147,100,141,1) 0%,rgba(147,100,141,1) 38%,rgba(114,107,155,1) 100%)
+	animation translatebackground 2s linear infinite
+	
+@keyframes translatebackground {
+	0% { background-position: 0px; }
+	100% { background-position: 430px; }
+}
+			
+
+@media(max-width:480px)
+	.contact-form__container
+		padding-bottom 30px
+		
+	.form__component
+		display block
+				
+		input
+		textarea
+		select
+			width 100%
+			border-bottom 2px solid $roxo
+			margin-top 5px
+			
+		label
+			display block
+			width 100%
+			padding 11px 0 0 0
+			text-align left
+		
+	.form__component--submit
+		input
+			border-bottom none
+	
+	.form--error			
+		&::before
+			width 100%
+			left 0
+			top 20px
+			text-align right
+			
+	.form--sending
+	.form--sending:hover
+		animation-duration 1s
+		

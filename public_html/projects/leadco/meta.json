@@ -1,0 +1,12 @@
+{  
+	"name":"Lead.co",
+	"id":"leadco",
+	"category": "cat_zonainternet",
+	"desc":
+	{
+		"br": ["A lead.co visa ser a empresa mais lembrada no estado do Rio de Janeiro, dentro do segmento de consultoria especializada em serviços de hospedagem, e alimentos e bebidas."],
+		"en": ["Lead.co aims to be the most remembered company in the state of Rio de Janeiro within the segment of hosting services, foods and drinks."]
+	},
+	"area":"Frontend & Backend",
+	"url":"http://leadco.com.br/"
+}

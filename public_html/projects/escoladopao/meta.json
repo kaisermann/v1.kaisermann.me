@@ -1,0 +1,14 @@
+{  
+	"name":"Escola do Pão",
+	"id":"escoladopao",
+	"category": "cat_pessoal",
+	"desc":
+	{
+		"br": ["“Desde que abriram a Escola do Pão, há 15 anos, Clécia e Elen Casagrande, mãe e filha, acumulam elogios ao café da manhã. Além dele, premiadíssimo, o lugar se transforma num charmoso bistrô à noite, o Bistrô da Escola do Pão, com receitas que nos remetem ao clima parisiense, todas assinadas por Elen Casagrande.”",
+			"Após 8 anos (vê se pode), o site, do estabelecimento dono do mais famoso café da manhã do Rio de Janeiro, ganha sua merecida repaginada, seguindo conceitos flat e modernos. O novo site é objetivo, rápido e otimizado tanto para desktops, quanto para aparelhos mobile."],
+		"en": ["“Since opened 15 years ago by its owners Clécia and Elen Casagrande, mother and daughter, the Escola do Pão accumulates praises for its breakfast. Besides it award-winning breakfast, the place turns into a charming bistro in the evening with recipes that recall the Parisian climate, all signed by Chef Elen Casagrande.”",
+			"After 8 years, the website of the establishment owner of the most famous breakfast of Rio de Janeiro gains its deserved makeover, following flat and modern concepts. The new website is objective, fast and optimized for both desktops and for mobile devices."]
+	},	
+	"area":"Layout & Frontend & Backend",
+	"url":"http://escoladopao.com.br"
+}

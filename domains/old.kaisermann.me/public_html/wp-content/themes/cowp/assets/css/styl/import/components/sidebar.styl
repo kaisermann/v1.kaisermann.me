@@ -1,0 +1,128 @@
+aside
+	position fixed
+	background-color $cinza-bg
+	display inline-block
+	max-width 260px
+	top 0
+	left 0
+	bottom 0
+	width 100%
+	overflow-y auto
+	overflow-x hidden
+	z-index 101
+	transition	left .3s ease, opacity	.3s ease
+
+	&.iframed
+		left -220px
+		opacity	0.4
+
+		&:hover
+			left 0
+			opacity	1
+	.top
+		margin-top 20px
+		margin-left $margem-lateral-aside
+.logo
+	display inline-block
+	font-family 'Josefin Sans'
+	color #fff
+	font-size 32px
+	transition opacity .3s ease
+	opacity .5
+	text-transform uppercase
+	&:hover
+		opacity .9
+
+.mobile-menu-btn
+	display none
+	cursor pointer
+	margin-left 10px
+
+	&.m-active
+		.bar-icon:nth-child(1) 
+			transform rotate(45deg) translate3d(5px,5px,0)
+		.bar-icon:nth-child(2) 
+			opacity 0
+		.bar-icon:nth-child(3) 
+			transform rotate(-45deg) translate3d(5px,-5px,0) 
+
+.bar-icon 
+		height 3px
+		width 20px
+		background #fff
+		display block
+		opacity 1
+		margin-top 4px
+		transition transform 0.15s linear
+		transform-origin 50% 50%
+
+		&:nth-child(1) 
+			margin-top 0
+
+		&:nth-child(2) 
+			transition opacity 0.1s linear
+
+nav
+	margin 60px 0
+	li
+		list-style none
+		text-transform uppercase
+		font-weight bold
+		position relative
+
+		&::before
+			content ''
+			display inline-block
+			width $menu-side-largura
+			background-color $menu-side-1
+			height 100%
+			position absolute
+			left 0
+			top 0 
+
+		&.current-menu-item > a
+		a:hover
+			background-color $menu-side-1
+			margin-left 5px
+
+		a 
+			display block
+			padding 15px 10px 15px $margem-lateral-aside
+			color #fff
+			transition background-color .3s ease, margin-left .3s ease
+			
+
+		li
+			&::before
+			&.current-menu-item > a		
+			a:hover
+				background-color $menu-side-2
+
+			li
+				&::before
+				&.current-menu-item > a		
+				a:hover
+					background-color $menu-side-3
+
+				li
+					&::before
+					&.current-menu-item > a		
+					a:hover
+						background-color $menu-side-4
+
+
+		ul
+			padding-left $menu-side-largura
+			display none
+
+		&.current-menu-ancestor
+			> ul
+				display block
+
+		&.menu-item-has-children
+			position relative
+			> a
+				color #bbb
+				&::hover
+					&::before
+						margin-right 10px

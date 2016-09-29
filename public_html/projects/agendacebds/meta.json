@@ -1,0 +1,14 @@
+{  
+	"name":"Agenda CEBDS",
+	"id":"agendacebds",
+	"category": "cat_zonainternet",
+	"desc":
+	{
+		"br": ["A Agenda CEBDS busca o compromisso dos próximos governantes com a agenda da sustentabilidade. A grande e principal função deste site é o compartilhamento de suas informações.",
+	"Diante disso, houve grande foco no controle e modo de apresentação das estatísticas de compartilhamento de propostas e páginas específicas."],
+		"en": ["With its Agenda, CEBDS (World Business Council for Sustainable Development) seeks the commitment of governments coming to the sustainability agenda. The main objective of this website is to share information.",
+		"Therefore, there was great focus on the control and display mode of sharing statistics and specific distinct pages."]
+	},
+	"area":"Frontend & Backend",
+	"url":"http://cebds.org.br/agenda"
+}

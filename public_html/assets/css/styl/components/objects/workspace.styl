@@ -1,0 +1,29 @@
+.workspace
+	display table
+	width 100%
+	height 100vh
+	max-width 1260px
+	margin 0 auto
+	padding 0 30px
+	
+	transform translateY(100%)
+	transition transform .3s ease-in-out
+	
+.workspace__container
+	user-select none
+	display table-cell
+	vertical-align bottom
+	width 100%
+	
+.workspace__above-table
+	position relative
+	max-width $table-width
+	height 600px
+	text-align center
+	margin 0 auto
+		
+.workspace--slided
+	transform translateY(0)	
+	
+.workspace--zoomed
+	display none

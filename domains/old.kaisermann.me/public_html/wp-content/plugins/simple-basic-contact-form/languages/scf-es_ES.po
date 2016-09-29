@@ -1,0 +1,555 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Basic Contact Form\n"
+"POT-Creation-Date: 2014-01-25 15:54-0800\n"
+"PO-Revision-Date: 2014-01-25 20:33-0500\n"
+"Last-Translator: Jeff Starr <http://perishablepress.com/contact/>\n"
+"Language-Team: Monzilla Media <http://perishablepress.com/contact/>\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simple-basic-contact-form.php:25
+msgid "Simple Basic Contact Form"
+msgstr "Simple Basic Contact Form"
+
+#: ../simple-basic-contact-form.php:40
+msgid "requires WordPress 3.4 or higher, and has been deactivated!"
+msgstr "requiere WordPress 3.4 o superior, y ha sido desactivado!"
+
+#: ../simple-basic-contact-form.php:41
+msgid "Please return to the"
+msgstr "Por favor regrese al"
+
+#: ../simple-basic-contact-form.php:41
+msgid "WordPress Admin area"
+msgstr "Área de Administración de WordPress"
+
+#: ../simple-basic-contact-form.php:41
+msgid "to upgrade WordPress and try again."
+msgstr "para actualizar WordPress e intente nuevamente."
+
+#: ../simple-basic-contact-form.php:326
+msgid "Send email"
+msgstr "Enviar mensaje"
+
+#: ../simple-basic-contact-form.php:341
+msgid "Settings"
+msgstr "Configuración"
+
+#: ../simple-basic-contact-form.php:383
+msgid "For example, +1 or -1"
+msgstr "Por ejemplo, +1 or -1"
+
+#: ../simple-basic-contact-form.php:384
+msgid "Message sent from your contact form."
+msgstr "Mensaje enviado desde su formulario de contacto."
+
+#: ../simple-basic-contact-form.php:385
+msgid "1 + 1 ="
+msgstr "1 + 1 ="
+
+#: ../simple-basic-contact-form.php:386
+msgid "2"
+msgstr "2"
+
+#: ../simple-basic-contact-form.php:388
+msgid "Name (Required)"
+msgstr "Nombre (Requerido)"
+
+#: ../simple-basic-contact-form.php:389
+msgid "Email (Required)"
+msgstr "Correo electrónico (Requerido)"
+
+#: ../simple-basic-contact-form.php:390
+msgid "Message (Required)"
+msgstr "Mensaje (Requerido)"
+
+#: ../simple-basic-contact-form.php:391
+msgid "Success!"
+msgstr "¡Éxito!"
+
+#: ../simple-basic-contact-form.php:391
+msgid "Your message has been sent."
+msgstr "Su mensaje ha sido enviado."
+
+#: ../simple-basic-contact-form.php:392
+msgid "Please complete the required fields."
+msgstr "Por favor complete los campos requeridos."
+
+#: ../simple-basic-contact-form.php:393
+msgid "Incorrect response for challenge question. Please try again."
+msgstr ""
+"Respuesta incorrecta a la pregunta de seguridad. Por favor intente de nuevo."
+
+#: ../simple-basic-contact-form.php:402 ../simple-basic-contact-form.php:576
+msgid "Your Name"
+msgstr "Su Nombre"
+
+#: ../simple-basic-contact-form.php:403 ../simple-basic-contact-form.php:581
+msgid "Your Email"
+msgstr "Su Correo Electrónico"
+
+#: ../simple-basic-contact-form.php:404
+msgid "Correct Response"
+msgstr "Respuesta Correcta"
+
+#: ../simple-basic-contact-form.php:405
+msgid "Your Message"
+msgstr "Su Mensaje"
+
+#: ../simple-basic-contact-form.php:537
+msgid "Toggle all panels"
+msgstr "Expandir/colapsar todos los paneles"
+
+#: ../simple-basic-contact-form.php:545
+msgid "Overview"
+msgstr "Resumen"
+
+#: ../simple-basic-contact-form.php:549
+msgid ""
+"(SBCF) is a simple basic contact form for your WordPress-powered website. "
+"Automatically sends a carbon copy to the sender."
+msgstr ""
+"(SBCF) genera un formulario básico de contacto para su sitio web en "
+"WordPress. Envía automáticamente una copia al remitente."
+
+#: ../simple-basic-contact-form.php:550
+msgid ""
+"Simply choose your options, then add the shortcode to any post or page to "
+"display the contact form. For a contact form with more options try "
+msgstr ""
+"Sólo tiene que configurar sus opciones, y después agregar el código "
+"abreviado a cualquier entrada o página donde desee mostrar el formulario de "
+"contacto. Para un formulario de contacto con más opciones pruebe "
+
+#: ../simple-basic-contact-form.php:554
+msgid "To configure the contact form, visit the"
+msgstr "Para configurar el formulario de contacto, visite el"
+
+#: ../simple-basic-contact-form.php:554
+msgid "Options panel"
+msgstr "Panel de opciones"
+
+#: ../simple-basic-contact-form.php:555
+msgid "For the shortcode and template tag, visit"
+msgstr ""
+"Para el código abreviado y el código para la plantilla del tema, visite"
+
+#: ../simple-basic-contact-form.php:555 ../simple-basic-contact-form.php:745
+msgid "Shortcodes &amp; Template Tags"
+msgstr "Códigos abreviados y Códigos para la plantilla del tema"
+
+#: ../simple-basic-contact-form.php:556
+msgid "To restore default settings, visit"
+msgstr "Para restablecer las opciones predeterminadas, visite"
+
+#: ../simple-basic-contact-form.php:556 ../simple-basic-contact-form.php:757
+msgid "Restore Default Options"
+msgstr "Restablecer opciones predeterminadas"
+
+#: ../simple-basic-contact-form.php:557
+msgid "For more information check the"
+msgstr "Para más información, lea el "
+
+#: ../simple-basic-contact-form.php:558
+msgid "and"
+msgstr "y la"
+
+#: ../simple-basic-contact-form.php:558
+msgid "SBCF Homepage"
+msgstr "Página inicial de SBCF"
+
+#: ../simple-basic-contact-form.php:559
+msgid "If you like this plugin, please"
+msgstr "Si le ha gustado este plugin, por favor"
+
+#: ../simple-basic-contact-form.php:560
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Haga click aquí para calificar y comentar este plugin en WordPress.org"
+
+#: ../simple-basic-contact-form.php:561
+msgid "rate it at the Plugin Directory"
+msgstr "califíquelo en el Directorio de Plugins"
+
+#: ../simple-basic-contact-form.php:569
+msgid "Options"
+msgstr "Opciones"
+
+#: ../simple-basic-contact-form.php:571
+msgid "Configure the contact form.."
+msgstr "Configure el formulario de contacto.."
+
+#: ../simple-basic-contact-form.php:572
+msgid "General options"
+msgstr "Opciones generales"
+
+#: ../simple-basic-contact-form.php:578
+msgid ""
+"How would you like to be addressed in messages sent from the contact form?"
+msgstr ""
+"¿Cómo le gustaría que se dirijan a Ud. en los mensajes enviados desde el "
+"formulario de contacto?"
+
+#: ../simple-basic-contact-form.php:583
+msgid "Where would you like to receive messages sent from the contact form?"
+msgstr ""
+"¿Dónde le gustaría recibir los mensajes enviados desde el formulario de "
+"contacto?"
+
+#: ../simple-basic-contact-form.php:586
+msgid "Your Site"
+msgstr "Su Sitio"
+
+#: ../simple-basic-contact-form.php:588
+msgid "From where should the contact messages indicate they were sent?"
+msgstr ""
+"¿De dónde deberían los mensajes de contacto indicar que fueron enviados?"
+
+#: ../simple-basic-contact-form.php:591
+msgid "Default Subject"
+msgstr "Asunto predeterminado"
+
+#: ../simple-basic-contact-form.php:593
+msgid "What should be the default subject line for the contact messages?"
+msgstr ""
+"¿Cuál debería ser el asunto predeterminado para los mensajes de contacto?"
+
+#: ../simple-basic-contact-form.php:596
+msgid "Enable Captcha"
+msgstr "Activar Captcha"
+
+#: ../simple-basic-contact-form.php:598
+msgid ""
+"Check this box if you want to enable the captcha (challenge question/answer)."
+msgstr "Marque esta casilla para activar la pregunta de seguridad (Captcha)."
+
+#: ../simple-basic-contact-form.php:601
+msgid "Challenge Question"
+msgstr "Pregunta de Seguridad"
+
+#: ../simple-basic-contact-form.php:603
+msgid "What question should be answered correctly before the message is sent?"
+msgstr ""
+"¿Qué pregunta debe ser contestada correctamente antes de enviar el mensaje?"
+
+#: ../simple-basic-contact-form.php:606
+msgid "Challenge Response"
+msgstr "Respuesta a la Pregunta de Seguridad"
+
+#: ../simple-basic-contact-form.php:608
+msgid "What is the <em>only</em> correct answer to the challenge question?"
+msgstr ""
+"¿Cuál es la <em>única</em> respuesta correcta a la pregunta de seguridad?"
+
+#: ../simple-basic-contact-form.php:611
+msgid "Case-sensitive?"
+msgstr "¿Distinguir mayúsculas y minúsculas?"
+
+#: ../simple-basic-contact-form.php:613
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr ""
+"Marque esta casilla para distinguir mayúsculas y minúsculas en la respuesta."
+
+#: ../simple-basic-contact-form.php:616
+msgid "Time Offset"
+msgstr "Diferencia Horaria"
+
+#: ../simple-basic-contact-form.php:620
+msgid "Please specify any time offset here. If no offset, enter \"0\" (zero)."
+msgstr ""
+"Especifique la diferencia horaria opcional, o \"0\" (cero) si no es "
+"necesaria."
+
+#: ../simple-basic-contact-form.php:621
+msgid "Current time:"
+msgstr "Hora actual:"
+
+#: ../simple-basic-contact-form.php:626
+msgid "Enable Carbon Copies?"
+msgstr "¿Activar copia al remitente?"
+
+#: ../simple-basic-contact-form.php:628
+msgid ""
+"Check this box if you want to enable the automatic sending of carbon-copies "
+"to the sender."
+msgstr ""
+"Marque esta casilla para enviar una copia automática al remitente del "
+"mensaje."
+
+#: ../simple-basic-contact-form.php:631
+msgid "Mail Function"
+msgstr "Función de envío de correo"
+
+#: ../simple-basic-contact-form.php:633
+msgid ""
+"Check this box if you want to use PHP&rsquo;s mail() function instead of "
+"WP&rsquo;s wp_mail() (default)."
+msgstr ""
+"Marque esta casilla si Ud. prefiere usar la función mail() de PHP en lugar "
+"de la predeterminada de Wordpress wp_mail()."
+
+#: ../simple-basic-contact-form.php:636 ../simple-basic-contact-form.php:700
+msgid "Success Message"
+msgstr "Mensaje de envío exitoso"
+
+#: ../simple-basic-contact-form.php:638
+msgid ""
+"Uncheck box to display brief success message; check box to display verbose "
+"success message (default)."
+msgstr ""
+"Desactive esta casilla para mostrar un mensaje breve de confirmación de "
+"envío; actívela para mostrar el mensaje extendido (predeterminado)."
+
+#: ../simple-basic-contact-form.php:642
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: ../simple-basic-contact-form.php:646
+msgid "Custom CSS styles"
+msgstr "Estilos CSS personalizados"
+
+#: ../simple-basic-contact-form.php:648
+msgid ""
+"Add some CSS to style the contact form. Note: do not include the <code>&lt;"
+"style&gt;</code> tags.<br />\n"
+"\t\t\t\t\t\t\t\t\t\t\tNote: visit <a href=\"http://m0n.co/i\" target=\"_blank"
+"\">m0n.co/i</a> for complete list of CSS hooks."
+msgstr ""
+"Ingrese estilos CSS para personalizar el aspecto del formulario de contacto. "
+"Nota: no incluya las etiquetas <code>&lt;style&gt;</code>.<br />\n"
+"\t\t\t\t\t\t\t\t\t\t\tNota: visite <a href=\"http://m0n.co/i\" target="
+"\"_blank\">m0n.co/i</a> para una lista completa de los selectores CSS "
+"disponibles."
+
+#: ../simple-basic-contact-form.php:653
+msgid "Field Captions &amp; Placeholders"
+msgstr "Subtítulos de campos y valores predeterminados"
+
+#: ../simple-basic-contact-form.php:657
+msgid "Caption for Name Field"
+msgstr "Subtítulo para el campo Nombre"
+
+#: ../simple-basic-contact-form.php:659
+msgid "This is the caption that corresponds with the Name field."
+msgstr "Este es un breve texto de ayuda que aparecerá junto al campo Nombre."
+
+#: ../simple-basic-contact-form.php:662
+msgid "Caption for Email Field"
+msgstr "Subtítulo para el campo Correo electrónico"
+
+#: ../simple-basic-contact-form.php:664
+msgid "This is the caption that corresponds with the Email field."
+msgstr ""
+"Este es un breve texto de ayuda que aparecerá junto al campo Correo "
+"electrónico."
+
+#: ../simple-basic-contact-form.php:667
+msgid "Caption for Message Field"
+msgstr "Subtítulo para el campo Mensaje"
+
+#: ../simple-basic-contact-form.php:669
+msgid "This is the caption that corresponds with the Message field."
+msgstr "Este es un breve texto de ayuda que aparecerá junto al campo Mensaje"
+
+#: ../simple-basic-contact-form.php:673
+msgid "Placeholder for Name Field"
+msgstr "Valor predeterminado para el campo Nombre"
+
+#: ../simple-basic-contact-form.php:675
+msgid "This is the text appearing as the input placeholder for the name input."
+msgstr ""
+"Este es el texto a mostrar dentro del campo Nombre, que desaparecerá cuando "
+"el usuario ponga el cursor en él."
+
+#: ../simple-basic-contact-form.php:678
+msgid "Placeholder for Email Field"
+msgstr "Valor predeterminado para el campo Correo electrónico"
+
+#: ../simple-basic-contact-form.php:680
+msgid ""
+"This is the text appearing as the input placeholder for the email input."
+msgstr ""
+"Este es el texto a mostrar dentro del campo Correo electrónico, que "
+"desaparecerá cuando el usuario ponga el cursor en él."
+
+#: ../simple-basic-contact-form.php:683
+msgid "Placeholder for Captcha Field"
+msgstr "Valor predeterminado para el campo Código de seguridad"
+
+#: ../simple-basic-contact-form.php:685
+msgid ""
+"This is the text appearing as the input placeholder for the captcha input."
+msgstr ""
+"Este es el texto a mostrar dentro del campo Pregunta de Seguridad, que "
+"desaparecerá cuando el usuario ponga el cursor en él."
+
+#: ../simple-basic-contact-form.php:688
+msgid "Placeholder for Message Field"
+msgstr "Valor predeterminado para el campo Mensaje"
+
+#: ../simple-basic-contact-form.php:690
+msgid ""
+"This is the text appearing as the input placeholder for the message input."
+msgstr ""
+"Este es el texto a mostrar dentro del campo Mensaje, que desaparecerá cuando "
+"el usuario ponga el cursor en él."
+
+#: ../simple-basic-contact-form.php:695
+msgid "Success &amp; error messages"
+msgstr "Mensajes de éxito y error"
+
+#: ../simple-basic-contact-form.php:696
+msgid ""
+"Note: use single quotes for attributes. Example: <code>&lt;span "
+"class='error'&gt;</code>"
+msgstr ""
+"Nota: utilice apóstrofes (comillas simples) para los atributos. Ejemplo: "
+"<code>&lt;span class='error'&gt;</code>"
+
+#: ../simple-basic-contact-form.php:702
+msgid ""
+"When the form is sucessfully submitted, this message will be displayed to "
+"the sender."
+msgstr ""
+"Cuando el formulario sea enviado con éxito, este mensaje se mostrará al "
+"remitente."
+
+#: ../simple-basic-contact-form.php:705
+msgid "Error Message"
+msgstr "Mensaje de Error"
+
+#: ../simple-basic-contact-form.php:707
+msgid "If the user skips a required field, this message will be displayed."
+msgstr "Si el usuario omite un campo obligatorio, se le mostrará este mensaje."
+
+#: ../simple-basic-contact-form.php:710
+msgid "Incorrect Response"
+msgstr "Respuesta Incorrecta"
+
+#: ../simple-basic-contact-form.php:712
+msgid ""
+"When the challenge question is answered incorrectly, this message will be "
+"displayed."
+msgstr ""
+"Si la respuesta a la pregunta de seguridad es incorrecta, se mostrará este "
+"mensaje."
+
+#: ../simple-basic-contact-form.php:715
+msgid "Error Fields"
+msgstr "Campos con error"
+
+#: ../simple-basic-contact-form.php:717
+msgid ""
+"Here you may specify the default CSS for error fields, or add other "
+"attributes."
+msgstr ""
+"Aquí puede especificar el código CSS predeterminado para los campos "
+"erróneos, o añadir otros atributos."
+
+#: ../simple-basic-contact-form.php:720
+msgid "Custom content before the form"
+msgstr "Contenido personalizado encima del formulario"
+
+#: ../simple-basic-contact-form.php:722
+msgid ""
+"Add some text/markup to appear <em>before</em> the submitted contact form "
+"(optional)."
+msgstr ""
+"Ingrese el texto o HTML que aparecerá <em>antes</em> del formulario de "
+"contacto (opcional)."
+
+#: ../simple-basic-contact-form.php:725
+msgid "Custom content after the form"
+msgstr "Contenido personalizado debajo del formulario"
+
+#: ../simple-basic-contact-form.php:727
+msgid ""
+"Add some text/markup to appear <em>after</em> the submitted contact form "
+"(optional)."
+msgstr ""
+"Ingrese el texto o HTML que aparecerá <em>después</em> del formulario de "
+"contacto (opcional)."
+
+#: ../simple-basic-contact-form.php:730
+msgid "Custom content before results"
+msgstr "Contenido personalizado encima del resultado"
+
+#: ../simple-basic-contact-form.php:732
+msgid ""
+"Add some text/markup to appear <em>before</em> the success message "
+"(optional)."
+msgstr ""
+"Ingrese el texto o HTML que aparecerá <em>antes</em> del mensaje con los "
+"resultados del envío (opcional)."
+
+#: ../simple-basic-contact-form.php:735
+msgid "Custom content after results"
+msgstr "Contenido personalizado debajo del resultado"
+
+#: ../simple-basic-contact-form.php:737
+msgid ""
+"Add some text/markup to appear <em>after</em> the success message (optional)."
+msgstr ""
+"Ingrese el texto o HTML que aparecerá <em>después</em> del mensaje con los "
+"resultados del envío (opcional)."
+
+#: ../simple-basic-contact-form.php:741 ../simple-basic-contact-form.php:768
+msgid "Save Settings"
+msgstr "Guardar Configuración"
+
+#: ../simple-basic-contact-form.php:747
+msgid "Shortcode"
+msgstr "Código abreviado (shortcode)"
+
+#: ../simple-basic-contact-form.php:748
+msgid "Use this shortcode to display the contact form on a post or page:"
+msgstr ""
+"Utilice este código abreviado para insertar el formulario en cualquier "
+"entrada o página:"
+
+#: ../simple-basic-contact-form.php:750
+msgid "Template tag"
+msgstr "Código para la plantilla"
+
+#: ../simple-basic-contact-form.php:751
+msgid ""
+"Use this template tag to display the form anywhere in your theme template:"
+msgstr ""
+"Utilice este código para insertar el formulario en cualquier plantilla de su "
+"tema:"
+
+#: ../simple-basic-contact-form.php:761
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr ""
+"Restaurar las opciones predeterminadas del plugin al desactivarlo y re-"
+"activarlo."
+
+#: ../simple-basic-contact-form.php:765
+msgid ""
+"<strong>Tip:</strong> leave this option unchecked to remember your settings. "
+"Or, to go ahead and restore all default options, check the box, save your "
+"settings, and then deactivate/reactivate the plugin."
+msgstr ""
+"<strong>Tip:</strong> deje esta opción desactivada para conservar sus "
+"preferencias. O si desea restablecer todas las opciones por defecto, marque "
+"la casilla, guarde la configuración, y luego desactive y re-active el plugin."
+
+#: ../simple-basic-contact-form.php:772
+msgid "Updates &amp; Info"
+msgstr "Actualizaciones e Información"
+
+#: ../simple-basic-contact-form.php:817
+msgid ""
+"Are you sure you want to restore all default options? (this action cannot be "
+"undone)"
+msgstr ""
+"¿Está seguro que desea restaurar todas las opciones predeterminadas? (esta "
+"acción no se puede deshacer)"

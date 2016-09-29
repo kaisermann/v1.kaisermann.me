@@ -1,0 +1,167 @@
+$cor-livro-1 = $verde
+$cor-livro-1-escura = darken($cor-livro-1 , 30%)
+	
+$cor-livro-2 = $azul
+$cor-livro-2-escura = darken($cor-livro-2 , 30%)
+	
+$cor-livro-3 = $vermelho
+$cor-livro-3-escura = darken($cor-livro-3 , 30%)
+	
+$cor-livro-4 = $roxo
+$cor-livro-4-escura = darken($cor-livro-4 , 30%)
+	
+$cor-livro-5 = $amarelo
+$cor-livro-5-escura = darken($cor-livro-5, 30%)
+
+.bookshelf
+	position absolute
+	top 20px
+	left $position-shelf
+	width 340px
+	
+	.shelf__base
+		margin-top -10px
+		
+.bookshelf__container
+	position relative
+	height 135px
+
+.bookshelf__book
+	height 100px
+	background-color red
+	position absolute
+	border-radius 2px
+	bottom 10px
+	width 25px
+	transform-origin 100% 50%
+	transition transform .3s ease-in-out
+	z-index 804
+	cursor pointer
+	
+	&::before
+	&::after
+		content ''
+		display block
+		position absolute
+		width 100%
+		left 0
+		
+	&::before
+		height 3px
+		top 10px
+	
+	&::after
+		height 30px
+		top 50%
+		transform translateY(-50%)
+		
+	&:hover
+		transform scale(1.08)
+	
+
+.book--1
+	height 120px
+	background-color $cor-livro-1
+	left 25px
+	
+	&::before
+		background-color $cor-livro-1-escura
+		box-shadow $cor-livro-1-escura 0 5px 0, $cor-livro-1-escura 0 25px 0, $cor-livro-1-escura 0 75px 0, $cor-livro-1-escura 0 95px 0, $cor-livro-1-escura 0 100px 0
+		
+	&::after
+		background-color $cor-livro-1-escura
+		
+
+.book--2
+	background-color $cor-livro-2
+	book-position(2, 30)
+	width 30px
+	left 52px
+	
+	&::before
+		background-color $cor-livro-2-escura
+		box-shadow $cor-livro-2-escura 0 5px 0, $cor-livro-2-escura 0 10px 0, $cor-livro-2-escura 0 70px, $cor-livro-2-escura 0 75px, $cor-livro-2-escura 0 80px 0
+		
+	&::after
+		height 40px
+		background-color $cor-livro-2-escura
+
+.book--3
+	height 110px
+	background-color $cor-livro-3
+	book-position(3, 25, 15)
+	left 102px
+	transform rotateZ(-25deg)
+	bottom 15px
+	
+	&::before
+		background-color $cor-livro-3-escura
+		height 6px
+		box-shadow $cor-livro-3-escura 0 10px 0, $cor-livro-3-escura 0 80px 0, $cor-livro-3-escura 0 90px 0
+		
+	&::after
+		background-color $cor-livro-3-escura
+		
+	&:hover
+		transform rotateZ(-25deg) scale(1.08)
+
+
+.book--4
+	height 90px
+	background-color $cor-livro-4
+	book-position(4, 35, 20)
+	left 150px
+	
+	&::before
+		height 6px
+		background-color $cor-livro-4-escura
+		box-shadow $cor-livro-4-escura 0 66px 0
+		
+	&::after
+		height 25px
+		background-color $cor-livro-4-escura
+
+.book--5
+	width 30px
+	background-color $cor-livro-5
+	book-position(5, 25, 40)
+	left 178px
+	
+	&::before
+		background-color $cor-livro-5-escura
+		box-shadow $cor-livro-5-escura 0 80px 0
+		
+	&::after
+		height 50px
+		background-color $cor-livro-5-escura
+
+
+.shelf__base
+	position absolute
+	top 100%
+	left 0
+	width 100%
+	height 15px
+	background-color $marrom
+	border-radius 3px
+	
+	&::before
+	&::after
+		content ''
+		display block
+		position absolute
+		top 100%
+		width 15px
+		border-top 25px solid $cinza
+		border-left 5px solid transparent
+		border-right 5px solid transparent
+		color $cinza
+		
+	&::before
+		left 15%
+		
+	&::after
+		right 15%
+		
+.shelf__base--mobile
+	display none

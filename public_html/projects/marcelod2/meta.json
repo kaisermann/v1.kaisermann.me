@@ -1,0 +1,16 @@
+{  
+	"name":"Marcelo D2",
+	"id":"marcelod2",
+	"category": "cat_zonainternet",
+	"desc":[
+	
+	],
+	"desc":
+	{
+		"br": ["Site desenvolvido, com WordPress, para a nova turnê do artista Marcelo D2. O conteúdo dinâmico era o fator de maior importância, visto que haveria um catálogo de clipes diversos do artista, agenda de shows (com marcação de pins no mapa do Google Maps) e integração com o tumblr do artista."],
+		"en": ["Site developed with WordPress for the new tour of the artist Marcelo D2. Dynamic content was the most important factor, since there would be various categories of music clips, touring schedule (with pin marks) and integration with the artist's tumblr."]
+	},
+	"technologies": "+, Tumble API",
+	"area":"Frontend & Backend",
+	"url":"http://marcelod2.com.br"
+}

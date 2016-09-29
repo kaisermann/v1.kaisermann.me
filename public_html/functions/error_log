@@ -1,0 +1,1 @@
+[17-Apr-2016 18:57:49 America/Chicago] PHP Fatal error:  Cannot redeclare class phpmailerException in /home/chrispif/public_html/kaisermann.me/functions/mail/class.smtp.php on line 3894
