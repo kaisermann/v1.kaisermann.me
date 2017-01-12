@@ -1,19 +1,19 @@
 <div class="about-wrapper">
 	<h2 class="page-title title--padded-mobile"><?php lang("about_me"); ?></h2>
 	<div class="about__top animation--1">
-		<div class="about__image-wrapper" style="background-image:url(assets/img/eu.jpg);"></div> 
+		<div class="about__image-wrapper" style="background-image:url(assets/img/eu.jpg);"></div>
 		<div class="about__description">
 			<div>
 				<?php if(is_lang("br")): ?>
 					<p><?php lang("about_desc_1"); ?></p>
 				<?php endif; ?>
 				<p><?php lang("about_desc_2"); ?></p>
-				<p><?php lang("about_desc_3"); ?> <em>workspace</em> :)</p> 
+				<p><?php lang("about_desc_3"); ?> <em>workspace</em> :)</p>
 			</div>
 		</div>
-	</div> 
+	</div>
 
-	<div class="about__exp"> 
+	<div class="about__exp">
 		<div class="row exp--row -exp-first">
 			<div class="col-half">
 				<span class="exp-section-title"><?php lang("about_skills"); ?></span>
@@ -176,6 +176,20 @@
 	</div>
 
 	<div class="about__jobs">
+		<div class="job__section">
+			<h3>2017 / 2016</h3>
+			<div class="job__item">
+				<span><?php lang("about_fullstack"); ?> @TUUT</span>
+				<small>(<?php lang("about_sep"); ?> 2015 - <?php lang("about_still_working"); ?>)</small>
+				<div class="job__desc">
+					<ul>
+						<li><?php lang("about_tuut_1"); ?></li>
+						<li><?php lang("about_tuut_2"); ?></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
 		<div class="job__section">
 			<h3>2015 / 2014 / 2013</h3>
 			<div class="job__item">

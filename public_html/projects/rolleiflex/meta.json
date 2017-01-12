@@ -1,0 +1,12 @@
+{
+  "name": "Rolleiflex",
+  "id": "rolleiflex",
+  "category": "cat_pessoal_opensource",
+  "desc": {
+    "br": ["Um framework de grid orientado a classes feito com flexboxes e Stylus."],
+    "en": ["A class-oriented and configurable Flexbox Grid made with Stylus."]
+  },
+  "technologies": "Stylus",
+  "area": "",
+  "url": "http://kaisermann.github.io/rolleiflex/"
+}

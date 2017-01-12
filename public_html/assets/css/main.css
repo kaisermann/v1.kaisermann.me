@@ -3441,6 +3441,15 @@ body.lang--en .flag--en {
   position: relative;
 }
 
+.project__item.-no-thumb .project__link-wrapper {
+  padding-bottom: 100%;
+}
+
+.project__item.-no-thumb .project__infos {
+  width: 100%;
+  padding-left: 0;
+}
+
 .project__item:nth-child(3n+1) {
   clear: left;
 }
