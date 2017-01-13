@@ -1,0 +1,12 @@
+{
+  "name": "CSS Comic Bubbles",
+  "id": "comicbubbles",
+  "category": "cat_pessoal_opensource",
+  "desc": {
+    "br": ["Elemento único para crianção de balões de fala 8-bit. Baseado em <a href='http://wigflip.com/ds/'>http://wigflip.com/ds/</a>."],
+    "en": ["Simple CSS only, one element, 8 Bit-like comic bubble. Based on <a href='http://wigflip.com/ds/'>http://wigflip.com/ds/</a>."]
+  },
+  "technologies": "Stylus",
+  "area": "",
+  "url": "https://github.com/kaisermann/comicbubbles"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Textlooper",
+  "id": "textlooper",
+  "category": "cat_pessoal_opensource",
+  "desc": {
+    "br": ["Um rotacionador de texto leve e customizável baseado em animações CSS."],
+    "en": ["Customizable and lightweight text content looper based on CSS animations."]
+  },
+  "technologies": "Vanilla JS",
+  "area": "",
+  "url": "https://github.com/kaisermann/textlooper"
+}

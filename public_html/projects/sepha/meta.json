@@ -1,0 +1,12 @@
+{
+  "name": "Sepha",
+  "id": "sepha",
+  "category": "cat_pessoal_opensource",
+  "desc": {
+    "br": ["Um tema de Wordpress baseado no <a href='https://github.com/roots/sage/'>Sage 9</a> e no workflow de Front-End, <a href='https://github.com/kaisermann/phase'>phase</a>. "],
+    "en": ["Wordpress theme based on <a href='https://github.com/roots/sage/'>Sage 9</a> and <a href='https://github.com/kaisermann/phase'>phase</a> asset workflow."]
+  },
+  "technologies": "PHP (Blade), Gulp, Bublé, Vanilla JS (ECMA2015), Stylus",
+  "area": "",
+  "url": "https://github.com/kaisermann/phase"
+}

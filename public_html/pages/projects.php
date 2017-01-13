@@ -55,7 +55,7 @@ $main_url = 'https://' . $_SERVER['HTTP_HOST'] . dirname( $_SERVER['PHP_SELF'] )
 ?>
 <div class="project-wrapper">
 	<h2 class="page-title title--padded-mobile"><?php lang( 'projects' ); ?></h2>
-	<?php $cats = [ 'cat_pessoal', 'cat_pessoal_opensource', 'cat_pessoal_blogs', 'cat_zonainternet' ]; ?>
+	<?php $cats = [ 'cat_pessoal', 'cat_pessoal_blogs', 'cat_pessoal_opensource', 'cat_tuut', 'cat_zonainternet' ]; ?>
 
 	<?php foreach ( $cats as $catid ) :  ?>
 		<?php $projects = $project_list_by_cat[ $catid ]; ?>

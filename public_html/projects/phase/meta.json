@@ -1,0 +1,12 @@
+{
+  "name": "Phase",
+  "id": "phase",
+  "category": "cat_pessoal_opensource",
+  "desc": {
+    "br": ["Um workflow de Front-End flexível e automatizado com Gulp. Baseado no <a href='https://github.com/roots/sage'>Sage starter theme</a>."],
+    "en": ["A gulp-automated front-end workflow based on the (awesome) <a href='https://github.com/roots/sage'>Sage starter theme</a> with some personal modifications."]
+  },
+  "technologies": "Gulp, Bublé, Vanilla JS (ECMA2015), Stylus",
+  "area": "",
+  "url": "https://github.com/kaisermann/phase"
+}
