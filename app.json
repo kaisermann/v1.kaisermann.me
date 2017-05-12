@@ -1,0 +1,12 @@
+{
+  "title": "Kaisermann - Web Dev",
+  "urls": {
+    "main": "http://localhost:3000",
+    "assets": "{{ urls.main }}/assets"
+  },
+  "environments": {
+    "dev": {},
+    "staging": {},
+    "production": {}
+  }
+}

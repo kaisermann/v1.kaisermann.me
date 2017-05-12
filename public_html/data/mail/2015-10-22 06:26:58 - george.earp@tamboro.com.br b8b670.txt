@@ -1,6 +1,0 @@
-George
-george.earp@tamboro.com.br
-[Contato]: Orçamento
-Olá Christian, sou diretor de tecnologia da Tamboro, empresa em que o Bernardo Dabul está trabalhando. Estou com uma demanda de um site em HTML5/CSS3 usando AngularJS. Estava precisando de uma pessoa para acelerar o desenvolvimento disso e me recomendaram vc. Seria trabalho para umas 2 semanas inicialmente. Entre em contato comigo assim que posssível. 
-abs,
-George Earp 
