@@ -5,7 +5,7 @@
     "fileStructure": {
       "shared": [
         [".well-known"],
-        ["projects"]
+        ["projects"],
         ["data"]
       ]
     },
