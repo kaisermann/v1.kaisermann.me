@@ -85,9 +85,9 @@ $main_url = 'https://' . $_SERVER['HTTP_HOST'] . dirname( $_SERVER['PHP_SELF'] )
 							<div class="project__complete-wrapper clear--after">
 								<?php
 									$imgs = readDirectory( $info['dir'] . '/imgs', false );
-									sort( $imgs, SORT_STRING );
 								?>
 								<?php if ( $imgs && count( $imgs ) > 0 ) :  ?>
+									<?php sort( $imgs, SORT_STRING ); ?>
 									<div class="project__slides">
 										<div class="project__slides-wrapper">
 											<?php
