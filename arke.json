@@ -20,8 +20,8 @@
     "maxReleases": 5
   },
   "hosts": {
-    "kwan": {
-      "hosts": ["kwan"],
+    "bottura": {
+      "hosts": ["bottura"],
       "name": "kaisermann.me",
       "projectDir": "/var/www",
       "projectPublicDir": "htdocs",
