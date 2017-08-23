@@ -20,7 +20,7 @@ function Kaisermann()
 	current_song_index = 0;
 
 	var animation_timers = {};
-	
+
 	var
 	sounds_id = ["typing","click", "phone", "rotation", "safe", "camera", "inception"],
 	sounds = {},
@@ -29,12 +29,12 @@ function Kaisermann()
 	var win = {width: window.innerWidth, height: window.innerHeight};
 
 	var
-	domain_url = dev ? "http://10.0.1.2" : "https://kaisermann.me",
+	domain_url = dev ? "http://10.0.1.2" : "https://playground.kaisermann.me",
 	main_path = dev ? "/new/" : "/",
 	main_url = domain_url + main_path,
 	assets_url = main_url + "assets/";
 
-	var 
+	var
 	laptop_zoomed = false,
 	isFirefox = (typeof InstallTrigger !== 'undefined'),
 	bodyScale = (isFirefox || isMobile.any) ? false : 3,
@@ -49,7 +49,7 @@ function Kaisermann()
 
 	function getLang(id) { return lang_file[id][cur_lang]; }
 
-	var sections = 
+	var sections =
 	{
 		"eastereggs":
 		{
@@ -81,7 +81,7 @@ function Kaisermann()
 							$iframe = $('<iframe class="easteregg__inception-frame" src="'+main_url+'?'+getRandomInt(0,500)+'"></iframe>');
 							$monitor_window.append($iframe);
 
-							$iframe.css("transform", "scale("+$monitor_window.outerWidth()/$iframe.outerWidth()+")");	
+							$iframe.css("transform", "scale("+$monitor_window.outerWidth()/$iframe.outerWidth()+")");
 
 							window.addEventListener("resize", inception_handler);
 						}
@@ -109,13 +109,13 @@ function Kaisermann()
 			}
 
 		},
-		"general": 
+		"general":
 		{
 			main: function()
 			{
 				var self = this;
 
-				var 
+				var
 				$code_elem = $(".notepad__code"),
 				$clock = $clock = $('.clock').find(".clock__container"),
 				$camera = $('.camera'),
@@ -217,7 +217,7 @@ function Kaisermann()
 					events.openSection(parseHash($(this).attr("href")));
 
 					if(typeof window.ga == "function")
-						ga('send', 'pageview', $(this).attr("href"));	
+						ga('send', 'pageview', $(this).attr("href"));
 				});
 
 				$flags.on('click', function()
@@ -233,7 +233,7 @@ function Kaisermann()
 
 				if(!isMobile.any)
 				{
-					$speakers.on("click", function() 
+					$speakers.on("click", function()
 					{
 						if (is_song_playing && $(this).hasClass("speaker--playing"))
 						{
@@ -324,13 +324,13 @@ function Kaisermann()
 					setTimeout(updateClock, 1000);
 				})();
 			},
-			"queue": 
+			"queue":
 			{
 				50: function () { $workspace.addClass("workspace--slided"); },
-				400: (isMobile.any)? null: function () 
+				400: (isMobile.any)? null: function ()
 				{
-					this.parameters.lamp.removeClass("lamp--off").addClass("lamp--blink"); 
-					if(!laptop_zoomed) 
+					this.parameters.lamp.removeClass("lamp--off").addClass("lamp--blink");
+					if(!laptop_zoomed)
 						playSound("click");
 				},
 				500: function() {
@@ -344,12 +344,12 @@ function Kaisermann()
 					animation_timers["typing"] = setTimeout(
 						(function()
 						{
-							var 
+							var
 							code_counter = 0,
 							code_length = self.parameters.code_tags.length,
-							$notepad_content = $(".notepad__content")[0];	
+							$notepad_content = $(".notepad__content")[0];
 
-							return function timer_typing_callback() 
+							return function timer_typing_callback()
 							{
 								animation_timers["typing"] && clearTimeout(animation_timers["typing"]);
 
@@ -361,9 +361,9 @@ function Kaisermann()
 
 								if (code_counter <= code_length)
 									animation_timers["typing"] = setTimeout(timer_typing_callback, code_interval);
-								else 
+								else
 								{
-									(function typeEnded () 
+									(function typeEnded ()
 									{
 										$laptop.addClass("animated").removeClass("animating");
 										if(!isMobile.any)
@@ -380,7 +380,7 @@ function Kaisermann()
 		},
 		"about": {
 			main: function()
-			{	
+			{
 				var self = this;
 
 				var $rowfirst = $(".-exp-first"),
@@ -444,8 +444,8 @@ function Kaisermann()
 						},
 						150,
 						function() { return ++skills_cur_item == $skill_items.length; }
-						);		
-						skill_animated = true;			
+						);
+						skill_animated = true;
 					}
 				};
 
@@ -472,7 +472,7 @@ function Kaisermann()
 			}
 		},
 		"projects": {
-			main: function(parameters) 
+			main: function(parameters)
 			{
 				var pitem_selector = ".project__item";
 				var pitem_link_selector = ".project__link";
@@ -542,7 +542,7 @@ function Kaisermann()
 					}
 
 					if(typeof window.ga == "function")
-						ga('send', 'pageview', _.attr("href"));	
+						ga('send', 'pageview', _.attr("href"));
 				});
 
 if(this.parameters.hash !== undefined)
@@ -561,7 +561,7 @@ onQueueStep: function(step_selector)
 }
 };
 
-var events = 
+var events =
 {
 	runSection: function(id, queue_id)
 	{
@@ -614,7 +614,7 @@ var events =
 	},
 	openLaptop: function()
 	{
-		if( laptop_zoomed ) 
+		if( laptop_zoomed )
 			return;
 		laptop_zoomed = true;
 
@@ -623,12 +623,12 @@ var events =
 			$laptop.addClass("laptop--zoomed");
 			applyTransforms($laptop);
 
-			if(bodyScale) 
-				$($body).css("transform", "scale3d("+bodyScale+","+bodyScale+",1)");			
+			if(bodyScale)
+				$($body).css("transform", "scale3d("+bodyScale+","+bodyScale+",1)");
 
-			transitionEnd($laptop).bind(function() 
+			transitionEnd($laptop).bind(function()
 			{
-				if( bodyScale )		
+				if( bodyScale )
 					$($body).addClass("body--notransition").css('transform','none');
 
 				$content.addClass("content--active");
@@ -730,7 +730,7 @@ var events =
 	}
 };
 
-function init() 
+function init()
 {
 	initElements();
 	initTriggers();
@@ -748,14 +748,14 @@ function init()
 		events.openSection(parseHash(window.location.hash));
 }
 
-function initElements() 
+function initElements()
 {
 	$laptop = $(".laptop");
 	$workspace = $('.workspace');
 	$monitor_window = $('.window__content');
 };
 
-function initTriggers() 
+function initTriggers()
 {
 	window.addEventListener('resize', throttle(function(ev) {
 		win = {width: window.innerWidth, height: window.innerHeight};
@@ -797,7 +797,7 @@ function showStructure(selector) { $(selector).removeClass("structure--invisible
 function isSmallScreen() { return isMobile.any || win.width < 992; }
 
 function playSound(id, shouldLoop)
-{	
+{
 	shouldLoop = !!shouldLoop;
 
 	if(shouldLoop)
@@ -837,14 +837,14 @@ function setTimeloop(callback, delay, condition_callback)
 	})(),delay);
 }
 
-function throttle(fn, delay) 
+function throttle(fn, delay)
 {
-	var allowSample = true; 
+	var allowSample = true;
 
-	return function(e) 
+	return function(e)
 	{
-		if (allowSample) 
-		{ 
+		if (allowSample)
+		{
 			allowSample = false;
 			setTimeout(function() { allowSample = true; }, delay);
 			fn(e);
@@ -868,16 +868,16 @@ function scrollToPos(position, duration)
 	}, duration);
 }
 
-function applyTransforms(el) 
+function applyTransforms(el)
 {
-	var laptopArea = el[0].querySelector('.monitor__screen'), 
+	var laptopArea = el[0].querySelector('.monitor__screen'),
 	laptopAreaSize = {width: laptopArea.offsetWidth, height: laptopArea.offsetHeight},
 	scaleVal = laptopAreaSize.width/laptopAreaSize.height < win.width/win.height ? win.width/laptopAreaSize.width : win.height/laptopAreaSize.height;
 
 	$(el).css({ "transform": 'scale3d(' + scaleVal + ',' + scaleVal + ',1)'});
 }
 function createCookie(name,value,days) {
-	if (days) 
+	if (days)
 	{
 		var date = new Date();
 		date.setTime(date.getTime()+(days*24*60*60*1000));
@@ -909,4 +909,3 @@ $.getJSON(assets_url + "langs.json", function(data) {
 new Kaisermann();
 
 function getRandomInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
-

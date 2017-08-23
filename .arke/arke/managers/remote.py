@@ -33,17 +33,23 @@ class RemoteManager(ManagerBoilerplate):
       # nginx setup
       if(isInstalled.has_key('ee') and isInstalled['ee'] and ask('Create website with EasyEngine?')):
         installationMode = 'ee'
-        typeFlags = ['html', 'php', 'mysql', 'wp', 'wpfc']
+        eeFlags = [
+          '--html',
+          '--php7',
+          '--mysql --php7',
+          '--wp --php7',
+          '--wpfc --php7'
+        ]
 
         print yellow('\n>> Creating site with EasyEngine')
-        siteType = typeFlags[whichOption(['HTML', 'PHP', 'PHP \ MySQL',
+        siteFlags = eeFlags[whichOption(['HTML', 'PHP', 'PHP \ MySQL',
                                           'Wordpress', 'Wordpress + FastCGI Cache'],
                                          'Choose a website type',
                                          'Type: ')]
 
         with hide('warnings'), settings(warn_only=True):
-          sudo('ee site create --%s %s' %
-               (siteType, arke.Core.getEnvOption('name')))
+          sudo('ee site create %s %s' %
+               (siteFlags, arke.Core.getEnvOption('name')))
 
         with hideOutput():
           # Appends /current to the server block root path
@@ -100,10 +106,13 @@ class RemoteManager(ManagerBoilerplate):
           sudo('mv %s %s/' % (defaultWPConfig, arke.Core.paths['shared']))
         print green('>> Done moving default wp-config.php')
 
+      print ''
       if(ask('Link htdocs/.well-known to shared/.well-known?')):
         print yellow('\n>> Linking .well-known directory')
-        sudo('ln -sfv %s/.well-known %s/.well-known' %
-             (arke.Core.paths['publicHTML'], arke.Core.paths['shared']))
+        with hideOutput():
+          sudo('ln -sfv %s/.well-known %s/.well-known' %
+               (arke.Core.paths['publicHTML'], arke.Core.paths['shared']))
+        print green('>> Done linking .well-known')
 
     # .env
     print ''
@@ -204,6 +213,15 @@ class RemoteManager(ManagerBoilerplate):
 
       print yellow('\n>> Beginning deployment')
 
+      if 'beforeDeploy' in arke.Core.options['project']['cmds']:
+        print yellow('\n>> Running before-deploy commands')
+        with hide('running'):
+          runCommandList(arke.Core.options['project']['cmds']['beforeDeploy'],
+                         arke.Core.paths['base'],
+                         True,
+                         True)
+        print green('>> Done running before-deploy commands')
+
       if(deployMode == 'git'):
         release_name='%s' % strftime('%Y-%m-%d_%H-%M-%S')
         print yellow('\n>> Creating new release')
@@ -228,18 +246,13 @@ class RemoteManager(ManagerBoilerplate):
         self.uploadBundle(release_name)
         self.createSymbolicLinks(release_name, deployMode)
         self.afterDeploy(release_name)
-
-        print('')
-        if ask('Should delete local bundle zip file?'):
-          with hideOutput():
-            lbash('rm -rf %s.zip' % join(baseDir, release_name))
     print green('>> Done deploying')
 
   def cloneRelease(self, release_name):
     curReleaseDir=join(arke.Core.paths['releases'], release_name)
     print yellow('\n>> Cloning newest release on remote server')
     with hide('running'):
-      run('git clone --branch "%s" %s "%s"' %
+      sudo('git clone --branch "%s" %s "%s"' %
           (release_name, arke.Core.options['project']['repo'], curReleaseDir))
     print green('>> Done cloning newest release')
 
@@ -255,6 +268,7 @@ class RemoteManager(ManagerBoilerplate):
       with cd(arke.Core.paths['releases']):
         sudo('unzip %s -d ./%s; rm -rf %s' %
              (releaseZip, release_name, releaseZip))
+      lbash('rm -f %s.zip' % releaseZip)
     print green('>> Done uploading newest release')
 
   def createSymbolicLinks(self, release_name, deployMode):
@@ -308,12 +322,13 @@ class RemoteManager(ManagerBoilerplate):
         self.service_reload(service)
       print green('>> Done reloading services')
 
-    print yellow('\n>> Running after-deploy commands')
-    with hide('running'):
-      runCommandList(arke.Core.options['project']['cmds']['afterDeploy'],
-                     curReleaseDir,
-                     False)
-    print green('>> Done running after-deploy commands')
+    if 'afterDeploy' in arke.Core.options['project']['cmds']:
+      print yellow('\n>> Running after-deploy commands')
+      with hide('running'):
+        runCommandList(arke.Core.options['project']['cmds']['afterDeploy'],
+                       curReleaseDir,
+                       False)
+      print green('>> Done running after-deploy commands')
 
     # Links latest release to the current directory
     print yellow('\n>> Linking "current" directory to newest release')
