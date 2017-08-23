@@ -95,7 +95,7 @@
 								<div class="bookshelf__book book--3"></div>
 								<div class="bookshelf__book book--4"></div>
 								<div class="bookshelf__book book--5"></div>
-								<a href="http://programadeindie.com" target="_blank">
+								<a href="http://programadeindie.kaisermann.me" target="_blank">
 									<div class="camera">
 										<div class="camera__container">
 											<div class="camera__btns"></div>

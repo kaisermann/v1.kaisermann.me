@@ -1,4 +1,4 @@
-{  
+{
 	"name":"Programa de Indie",
 	"id":"programadeindie",
 	"category": "cat_pessoal",
@@ -11,5 +11,5 @@
 		"en": ["'Programa de Indie' is experimental photography project. The idea was to mix the best features of each website of the current party photography companies in Rio de Janeiro."]
 	},
 	"area":"Layout & Frontend & Backend",
-	"url":"http://programadeindie.com"
+	"url":"http://programadeindie.kaisermann.me"
 }
