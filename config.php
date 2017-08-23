@@ -1,7 +1,7 @@
 <?php
 define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 
-$main_url = 'https://kaisermann.me';
+$main_url = 'https://playground.kaisermann.me';
 $asset_version = '3.6';
 $dev = 0;
 

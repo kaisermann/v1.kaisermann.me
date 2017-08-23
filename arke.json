@@ -3,16 +3,10 @@
     "repo": "git@github.com:kaisermann/projeto-kaisermann.me.git",
     "type": "php",
     "fileStructure": {
-      "shared": [
-        [".well-known"],
-        ["projects"],
-        ["data"]
-      ]
+      "shared": [[".well-known"], ["projects"], ["data"]]
     },
     "cmds": {
-      "install": [
-        ["", "yarn"]
-      ],
+      "install": [["", "yarn"]],
       "afterDeploy": [
         ["", "rm -rf fabfile.py arke.json .arke readme.md .editorconfig"]
       ]
@@ -20,13 +14,27 @@
     "maxReleases": 5
   },
   "hosts": {
-    "bottura": {
+    "bottura-old": {
       "hosts": ["bottura"],
       "name": "kaisermann.me",
       "projectDir": "/var/www",
       "projectPublicDir": "htdocs",
       "webRootDir": "",
       "hostnames": "kaisermann.me www.kaisermann.me",
+      "webServerUser": "www-data",
+      "webServerGroup": "www-data",
+      "services": {
+        "toRestart": ["php7.0-fpm"],
+        "toReload": ["nginx"]
+      }
+    },
+    "bottura-new": {
+      "hosts": ["bottura"],
+      "name": "playground.kaisermann.me",
+      "projectDir": "/var/www",
+      "projectPublicDir": "htdocs",
+      "webRootDir": "",
+      "hostnames": "playground.kaisermann.me www.playground.kaisermann.me",
       "webServerUser": "www-data",
       "webServerGroup": "www-data",
       "services": {
