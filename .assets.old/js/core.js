@@ -30,10 +30,8 @@ function Kaisermann() {
 
   var win = { width: window.innerWidth, height: window.innerHeight };
 
-  var domain_url = "https://playground.kaisermann.me",
-    main_path = "/",
-    main_url = domain_url + main_path,
-    assets_url = main_url + "assets/";
+  var main_url = "/",
+    assets_url = "/assets/";
 
   var laptop_zoomed = false,
     isFirefox = typeof InstallTrigger !== "undefined",
