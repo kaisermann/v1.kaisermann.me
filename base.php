@@ -10,36 +10,13 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Kaisermann | Web Design &amp; Development" />
 	<meta property="og:description" content="Hey, faço sites práticos, elegantes e simples :)" />
-	<meta property="og:url" content="<?php echo $main_url; ?>" />
+	<meta property="og:url" content="TODO" />
 	<meta property="og:site_name" content="Kaisermann | Web Design &amp; Development" />
-	<meta property="og:image" content="<?php echo $main_url; ?>/assets/img/site_thumb.png" />
-	<link rel="stylesheet" href="<?php echo $main_url; ?>/assets/css/main.min.css?<?php echo $asset_version; ?>">
-	<link rel="shortcut icon" href="<?php echo $main_url; ?>/assets/img/favicon.png"/>
-
-	<?php if(!$dev): ?>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-75837777-1', 'auto');
-			ga('require', 'displayfeatures');
-			ga('send', 'pageview');
-		</script>
-		<script>
-				(function(h,o,t,j,a,r){
-						h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-						h._hjSettings={hjid:602311,hjsv:5};
-						a=o.getElementsByTagName('head')[0];
-						r=o.createElement('script');r.async=1;
-						r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-						a.appendChild(r);
-				})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-		</script>
-	<?php endif; ?>
-
+	<meta property="og:image" content="/assets/img/site_thumb.png" />
+	<link rel="stylesheet" href="/assets/css/main.min.css">
+	<link rel="shortcut icon" href="/assets/img/favicon.png"/>
 </head>
+
 <body>
 	<div class="container">
 		<section class="workspace">
@@ -75,7 +52,9 @@
 										<div class="window__content">
 											<div class="notepad">
 												<div class="notepad__content">
-													<div class="notepad__code html"><?php include("notepad_code.html"); ?></div>
+													<div class="notepad__code html">
+														<?php include("notepad_code.html"); ?>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -207,11 +186,8 @@
 			<div class="button button--close"></div>
 		</section>
 	</div>
-	<div id="awwwards" class="nominee black left">
-		<a href="http://www.awwwards.com/best-websites/kaisermann-web-design-development/" target="_blank">Awwwards</a>
-	</div>
 </body>
 <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script type="text/javascript" src='<?php echo $main_url; ?>/assets/js/main.min.js?<?php echo $asset_version; ?>'></script>
+<script type="text/javascript" src='/assets/js/main.min.js'></script>
 <script type="text/javascript" src="https://signature.kaisermann.me/#state=fixed&responsive=true" async></script>
 </html>

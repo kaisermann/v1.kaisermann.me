@@ -1,4 +1,0 @@
-Bianca Montagnana
-bianca@newsprime.com.br
-[Contato]: Orçamento
-Olá, gostaria de saber o valor para reformulação de um site em php. O site atual está no ar em http://www.ancp.org.br/. O visual novo já está pronto e as páginas são enviadas todas prontas. Seria somente colocar a programação e copiar o conteúdo do site atual. O admin tb já esta´pronto, seria necessário somente adaptá-lo ao novo visual. Aguardo retorno. Obrigada!!
