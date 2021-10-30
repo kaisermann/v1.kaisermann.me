@@ -1,12 +1,18 @@
-# Dotenv
+# build output
+dist
+
+# dependencies
+node_modules/
+.snowpack/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables
 .env
-.env.*
-!.env.example
+.env.production
 
-# Vendor (e.g. Composer)
-vendor/*
-!vendor/.gitkeep
-
-# Assets
-node_modules
-bower_components
+# macOS-specific files
+.DS_Store

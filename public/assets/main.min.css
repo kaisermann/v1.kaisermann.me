@@ -3282,12 +3282,15 @@ body.lang--en .flag--en {
 }
 .project__grid {
 	margin: 0 -10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
 }
 .project__item {
 	width: 33.333333333333336%;
-	float: left;
 	position: relative;
 }
+
 .project__item.-no-thumb .project__link-wrapper {
 	padding-bottom: 100%;
 }
