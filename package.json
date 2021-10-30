@@ -1,30 +1,15 @@
 {
-  "name": "Coup",
-  "version": "0.0.2",
-  "author": "Kaisermano e Paladino",
-  "homepage": "http://zombo.com",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
+  "name": "@example/starter",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "upload-projects": "rsync -zaP projects bottura:/var/www/kaisermann.me/htdocs/shared",
-    "get-data": "rm -rf data; rsync -zaP bottura:/var/www/kaisermann.me/htdocs/shared/data ./"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build || true",
+    "preview": "astro preview"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/MIT"
-  }],
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "dependencies": {
-    "grunt": "0.x.x",
-    "grunt-autoprefixer": "0.2.x",
-    "grunt-contrib-clean": "0.5.x",
-    "grunt-contrib-cssmin": "0.6.x",
-    "grunt-contrib-stylus": "0.8.x",
-    "grunt-contrib-uglify": "0.2.x",
-    "grunt-contrib-watch": "0.5.x"
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "astro": "^0.20.12"
   }
 }

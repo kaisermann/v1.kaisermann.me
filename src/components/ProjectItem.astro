@@ -1,0 +1,58 @@
+---
+const { project } = Astro.props;
+---
+<div class={`
+    project__item
+    project--color-${project.color}
+    animation--${project.index}
+    ${!project.hasThumb ? '-no-thumb' : ''}
+  `}
+>
+  <a href={`#projects/${project.id}`} class="project__link">
+    <div class="project__link-wrapper">
+      { project.hasThumb && <img
+        src={project.thumbPath}
+        alt={project.name}
+      />}
+
+      <div class={`project__base project__base--color-${project.color}`}>
+        <h4 class="project__base-title">{project.name}</h4>
+      </div>
+    </div>
+  </a>
+  <div class="project__complete">
+    <div class="project__complete-wrapper clear--after">
+    {project.images.length > 0 && (
+      <div class="project__slides">
+        <div class="project__slides-wrapper">
+          {project.images.map((imgPath) => (
+            <div class="project__slide">
+              <img data-lazyload={`${imgPath}`} />
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+      <div class="project__infos">
+        <h4 class="project__title">{project.name}</h4>
+        <div class="project__desc">
+          {project.desc.en.map(($paragraph) => (
+            <p>{$paragraph}</p>
+          ))}
+          {project.area?.length && (
+            <p>
+              <strong>Area:</strong>: {project.area}
+            </p>
+          )}
+        </div>
+        {project.url.length > 4 && (
+          <div class="project__address">
+            <a href={project.url} target="_blank">
+              <span>Go to project website</span>
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</div>

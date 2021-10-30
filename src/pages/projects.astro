@@ -1,0 +1,72 @@
+---
+import Debug from 'astro/debug'
+import { join } from 'node:path';
+import {  readdir, stat, readFile } from 'node:fs/promises'
+
+import ProjectItem from '../components/ProjectItem.astro'
+
+const exists = async path => !!(await stat(path).catch(e => false));
+
+const getRandomColor = () =>  Math.floor( Math.random() * 5 ) + 1
+
+const projectsDir = join(process.cwd(), 'src', 'projects')
+
+const projectIds = await(readdir(projectsDir))
+
+const projects = (
+  await Promise.all(projectIds.map(async (projectId) => {
+    const projectPath = join(projectsDir, projectId)
+
+    try {
+      const meta = JSON.parse(await readFile(join(projectPath, `meta.json`)))
+      const thumbLocalPath = join(projectPath, `${projectId}.jpg`)
+      const thumbPublicPath = Astro.resolve(`../projects/${projectId}/${projectId}.jpg`)
+      const imgsPath = join(projectPath, `imgs`)
+      const hasThumb = await exists(thumbLocalPath)
+      const images = await readdir(imgsPath).then((paths) => {
+        return paths.map((path) => {
+          return Astro.resolve(`../projects/${projectId}/imgs/${path}`)
+        })
+      }).catch(() => [])
+
+      return {
+        ...meta,
+        color: getRandomColor(),
+        thumbPath: thumbPublicPath,
+        hasThumb,
+        path: projectPath,
+        images,
+      }
+    } catch (e) {
+      console.log(e)
+      return null
+    }
+  }))
+).filter(Boolean)
+
+
+const projectsByCategory = projects.reduce((acc, project: any) => {
+  if(acc[project.category] == null) acc[project.category] = []
+  acc[project.category].push({
+    ...project,
+    index: acc[project.category].length + 1
+  })
+
+  return acc
+}, {})
+
+const dict = (await import('../../public/assets/langs.json')).default
+---
+
+<div class="project-wrapper">
+  <h2 class="page-title title--padded-mobile">Projects</h2>
+
+  {Object.entries(projectsByCategory).map(([catId, projects]) => (
+  <div class="project__list">
+    <h3 class="structure--animatable animation--1">{dict[catId].en}</h3>
+    <div class="project__grid clear--after">
+      {projects.map((project) => <ProjectItem project="{project}" />)}
+    </div>
+  </div>
+  ))}
+</div>
